@@ -1,0 +1,127 @@
+{
+  "topic_id": 169283,
+  "title": "Graded assignment 6",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/graded-assignment-6/169283",
+  "posts": [
+    {
+      "post_id": 603963,
+      "author": "Jivraj",
+      "created_at": "2025-03-06T13:48:39.245000",
+      "content": "Please post any questions related to \nGraded Assignment 6 - Data Analysis\n\n\nPlease use markdown code formatting (fenced code blocks) when sharing code (rather than screenshots). It’s easier for us to copy-paste and test.\n\n\nDeadline \n2025-03-15T18:30:00Z"
+    },
+    {
+      "post_id": 603964,
+      "author": "Jivraj",
+      "created_at": "2025-03-06T13:49:29.690000",
+      "content": ""
+    },
+    {
+      "post_id": 603966,
+      "author": "24f2006061",
+      "created_at": "2025-03-02T11:45:12.668000",
+      "content": "The answer choices for questions 1 and 2 in graded assignment 6 are quite confusing. Both questions are single-select, yet three out of the four options are correct in each case. I’m unsure whether to choose one of the correct options or if the question is actually asking for the incorrect one. Could someone please clarify?\n\n\n@carlton"
+    },
+    {
+      "post_id": 602355,
+      "author": "23f2005138",
+      "created_at": "2025-03-02T11:57:04.636000",
+      "content": "@Jivraj\n \n@Saransh_Saini\n\nI have similar concern\n\nFor Q1, I used the following code:\n\n\nprint(f'Pearson correlation for Karnataka between price retention and column')\nkk = df[df['State'] == 'Karnataka']\nfor col in ['Mileage (km/l)', 'Avg Daily Distance (km)', 'Engine Capacity (cc)']:\n    pearson_corr = kk['price_retention'].corr(kk[col])\n    print(f'\\t{col:25} : {pearson_corr:.2f}')\n\n\n\nAnd got the following output:\n\n\nPearson correlation for Karnataka between price retention and column\n\tMileage (km/l)            : 0.03\n\tAvg Daily Distance (km)   : -0.06\n\tEngine Capacity (cc)      : -0.04\n\n\n\nWhereas options are below where none of them are correct.\n\n\nimage\n281×219 9.1 KB\n\n\nWhereas for Q2 (Punjab and Yamaha) I used the following code:\n\n\nprint(f'Pearson correlation for Punjab and Yamaha between price retention and column')\npb = df[(df['State'] == 'Punjab') & (df['Brand'] == 'Yamaha')]\nfor col in ['Mileage (km/l)', 'Avg Daily Distance (km)', 'Engine Capacity (cc)']:\n    pearson_corr = pb['price_retention'].corr(pb[col])\n    print(f'\\t{col:25} : {pearson_corr:.2f}')\n\n\n\nand got the following answers:\n\n\nPearson correlation for Punjab and Yamaha between price retention and column\n\tMileage (km/l)            : 0.24\n\tAvg Daily Distance (km)   : -0.06\n\tEngine Capacity (cc)      : -0.08\n\n\n\nThe options for Q2 are given below and 2 of them are correct (AvgDistance and Mileage).\n\n\nimage\n278×216 9.19 KB"
+    },
+    {
+      "post_id": 603367,
+      "author": "carlton",
+      "created_at": "2025-03-04T10:11:22.975000",
+      "content": "@24f2006061\n We are looking into it. We will update based on our analysis. Thanks for letting us know.\n\n\nKind regards"
+    },
+    {
+      "post_id": 603970,
+      "author": "AbhinavOhri",
+      "created_at": "2025-03-03T18:06:51.395000",
+      "content": "I used a python script to get the solution to quesiton 1 of week 6 graded assignment. It matches three options. Is this a bug or like we then need to analyze using the pearson coefficient to determine which option is the correct one\n\n\nimage\n1383×263 25 KB"
+    },
+    {
+      "post_id": 604313,
+      "author": "24ds3000090",
+      "created_at": "2025-03-07T17:12:28.199000",
+      "content": "Dear Sirs, Can we have some response on these issues related particularly to the questions 1 and 2 of Graded Assignment 6. It looks like multiple options are correct in the given options. Any guidance or hint, on how to arrive at the right answer will be helpful. Thanks and regards. \n@carlton\n \n@Jivraj\n \n@Saransh_Saini"
+    },
+    {
+      "post_id": 604590,
+      "author": "23f2003413",
+      "created_at": "2025-03-08T15:17:03.743000",
+      "content": "Yeah…Even I am facing the same issue. Out of the 4 options provided, 3 options are correct in my case both for Q1 & Q2, but both these questions are single-choice questions. Kindly look into it and help us out \n@carlton\n !"
+    },
+    {
+      "post_id": 605292,
+      "author": "23ds2000092",
+      "created_at": "2025-03-10T07:56:14.493000",
+      "content": "I guess for both Q1 & Q2, we need to find the option that is having stronger correlation (positive/negative). Please correct me if I am wrong."
+    },
+    {
+      "post_id": 605551,
+      "author": "21f2000709",
+      "created_at": "2025-03-11T06:42:12.463000",
+      "content": "Any updates on these? I am too facing the same issue.\n\n\n@carlton\n \n@Jivraj\n \n@Saransh_Saini"
+    },
+    {
+      "post_id": 605753,
+      "author": "Udipth",
+      "created_at": "2025-03-11T17:42:32.616000",
+      "content": "In GA6 for first 2 questions 3 out of 4 options are correct. Even the question is not clearly asking anything. Kindly suggest are we supposed to select the wrong one\n\n\nimage\n2083×575 47.6 KB"
+    },
+    {
+      "post_id": 605798,
+      "author": "23f2003413",
+      "created_at": "2025-03-12T03:42:05.053000",
+      "content": "Kindly update us regarding the status of Q1 & Q2 \n@carlton\n \n@Jivraj"
+    },
+    {
+      "post_id": 605954,
+      "author": "lakshaygarg654",
+      "created_at": "2025-03-12T11:29:04.042000",
+      "content": "@Jivraj\n \n@carlton\n \n@Saransh_Saini\n\nDear TDS Team,\n\n\nThere are multiple issues in Graded Assignment 6 that require urgent attention:\n\n\n\n\nQuestions 1 and 2, along with their options, are ambiguous.\n\n\nIn Questions 3 and 4, I am unable to obtain an exact answer that matches any of the given options, despite trying multiple approaches, including the Excel regression method and other models in a Google Colab file.\n\n\nThe data for Question 10 is missing. I attempted to run the shapefile in QGIS, but it resulted in an error. Additionally, I searched for the shapefile of New York roads on official websites, but their servers are currently under maintenance.\n\n\n\n\nThe assignment deadline is approaching, but these issues remain unresolved. Kindly look into this matter at the earliest and provide a resolution as soon as possible.\n\n\nThank you for your support."
+    },
+    {
+      "post_id": 605995,
+      "author": "21f2000709",
+      "created_at": "2025-03-12T13:30:00.912000",
+      "content": "Yes, there are no specifics in Q1 to Q4 and are quite ambiguous.\n\n\nFor instance:\n\n\n\n\nforecast the 2027 resale value of the Hero - HF Deluxe in Gujarat, using historical data.\n\n\n\n\nbut is this talking about the average resale value as no input features are specified?"
+    },
+    {
+      "post_id": 606007,
+      "author": "lakshaygarg654",
+      "created_at": "2025-03-12T14:11:15.210000",
+      "content": "Let’s wait for their response.\n\nI submitted nearby option for Q3 and Q4"
+    },
+    {
+      "post_id": 606017,
+      "author": "23f3001745",
+      "created_at": "2025-03-12T14:36:43.739000",
+      "content": "@Jivraj\n \n@carlton\n \n@Saransh_Saini\n\nCan you please provide any update ASAP as the deadline for this GA coincides with Quiz 2. With many ambiguities unresolved it’s hard to solve this and study for Quiz 2 (and do offline college work even though that’s not your problem).\n\nThanks"
+    },
+    {
+      "post_id": 606228,
+      "author": "Jivraj",
+      "created_at": "2025-03-13T09:47:03.906000",
+      "content": "Hi \n@all\n\n\nQuestion intends you to select most correlated one.\n\nSelect option which is absolute highest."
+    },
+    {
+      "post_id": 606558,
+      "author": "Sunil_mv",
+      "created_at": "2025-03-14T14:30:12.725000",
+      "content": "@Jivraj\n  - Can you please check answer choices for Q7 for GA6 where no choices are matching with the answer. The answer is coming to around 11.5 kms which is 11500 meters.\n\nQ.A wildfire is threatening a rural mountain region, and emergency services need to coordinate evacuation routes for four remote communities. The Emergency Management Center is located at a central command post, and must plan the most efficient evacuation route to ensure rapid and safe community evacuation. The four communities are: Pine Pines Junction : (26.5596,-99.5336) ;Maple Fields Station : (26.4212,-99.4597);South Glen Crossing : (26.5962,-99.5243);Cedar Creek Retreat : (26.56,-99.4519) & Central Command Post Location: (26.4644,-99.4771) Using the Haversine package, calculate the distance from the Central Command Post to Pine Pines Junction. Which of the following is the MOST ACCURATE distance"
+    },
+    {
+      "post_id": 606603,
+      "author": "23f3001601",
+      "created_at": "2025-03-14T16:06:48.081000",
+      "content": "image\n1318×377 34.2 KB\n\nwhat to do if 3 options have same value -0.04 and all are correct?"
+    },
+    {
+      "post_id": 606761,
+      "author": "23f2005471",
+      "created_at": "2025-03-15T05:54:10.148000",
+      "content": "@carlton\n \n@Jivraj\n\nMy question 7 for GA6 is :\n\nA wildfire is threatening a rural mountain region, and emergency services need to coordinate evacuation routes for four remote communities. The Emergency Management Center is located at a central command post, and must plan the most efficient evacuation route to ensure rapid and safe community evacuation. The four communities are: Silver Springs Community : (42.1029,-85.665) ;Pleasant Harbor Community : (42.1238,-85.9043);Summit Shores Village : (42.0415,-85.8696);River Retreat Outpost : (42.0417,-85.6836) & Central Command Post Location: (42.0587,-85.7226) Using the Haversine package, calculate the distance from the Central Command Post to Silver Springs Community. Which of the following is the MOST ACCURATE distance\n\nWhose options provided are :\n\n10418 meters\n\n\n12287 meters\n\n\n10965 meters\n\n\n11149 meters\n\n\nHowever, after trying all methods out there my distance comes out to be 6873 meters, I selected 10418 as the answer (closest approximation to 6873 meters)\n\n\nI assume that the question must have been central command post to summit shores village (whose answer turns out to be 12287 meters)\n\nKindly look into the question, and let me know about the same (the destination from central command post)"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "topic_id": 171141,
+  "title": "Tds-official-Project1-discrepencies",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/tds-official-project1-discrepencies/171141",
+  "posts": [
+    {
+      "post_id": 612319,
+      "author": "Jivraj",
+      "created_at": "2025-03-28T18:34:41.099000",
+      "content": "Please post any discrepancies related to project1.\n\n\n@carlton\n\n\nWho were evaluated? How did we decide what to evaluate?\n\n\nAll the image ids we evaluated were what \nyou\n submitted to us. This is the list of docker repos that was given to us by \n@s.anand\n as the official list that met all the pre-requisites of Project 1. Therefore we will only evaluate those on this list who are eligible for evaluation with the repos \nyou\n gave us.\n\n\nFor clarity. Your docker repo gets a unique id every time it is changed. We will ONLY evaluate the image id which was present at the time of the docker repo being pulled. This acts as a time stamped frozen version of your repo. No other image id will be evaluated.\n\n\nHow to fix bugs in our scripts\n\n\nCreate Pull requests to \nJivraj-18/tds-jan25-project1\n .\n\n\nDocker Image Architecture Issue Report\n\n\nIf your Docker image was run on the wrong architecture, please fill out this form:\n\n\nSubmit Report\n\n\nBug fixes\n\n\nIf you find bugs in our evaluation scripts, you might benefit from more marks because of the bug fix. So it is in your interest to look through our scripts and logs and identify bugs or anomalies. You might just go from 0 to heros.\n\n\nKind regards,\n\nTDS Team"
+    },
+    {
+      "post_id": 612320,
+      "author": "Jivraj",
+      "created_at": "2025-03-28T18:35:12.862000",
+      "content": ""
+    },
+    {
+      "post_id": 612327,
+      "author": "23f2004912",
+      "created_at": "2025-03-28T19:03:42.095000",
+      "content": "What is the highest mark anyone has scored? Is it 22/20\n\n\n@Carlton\n?"
+    },
+    {
+      "post_id": 612331,
+      "author": "23f2005702",
+      "created_at": "2025-03-28T19:11:04.307000",
+      "content": "How come me and my group used same code but some got 10 some 11 some 12?"
+    },
+    {
+      "post_id": 612332,
+      "author": "Yogesh1",
+      "created_at": "2025-03-28T19:11:39.267000",
+      "content": "@carlton\n Please make clear what the average marks are, what highest marks are, and how the project will be evaulated.\n\n\nWe are very close to the end semester exam, and we are still not clear on assignment and project marks. It is a bit frustrating to plan in such circumstances."
+    },
+    {
+      "post_id": 612333,
+      "author": "carlton",
+      "created_at": "2025-03-28T19:12:51.933000",
+      "content": "You have to see the logs for that. We have shared the logs. Everyone was graded by the exact same code, so there is no partiality. Your code did not produce consistent results."
+    },
+    {
+      "post_id": 612334,
+      "author": "22f3002933",
+      "created_at": "2025-03-28T19:14:57.376000",
+      "content": "I have noticed that my image was run on a \nx86_64\n architecture ( I can see my email in the logs shared ) whereas I built this docker image on my mac which is \nARM\n. This is why I can see that my docker image never ran properly and threw the \nexec format error\n.\n\n\nThis was never mentioned on which architecture machine, our images will be evaluated. I request that my evaluation be done again on the right machine."
+    },
+    {
+      "post_id": 612335,
+      "author": "22f2001389",
+      "created_at": "2025-03-28T19:15:19.619000",
+      "content": "My evaluation log file is missing, although I followed all the steps to generate the docker image correctly, it’s showing the server didn’t start for 5 minutes but when I uploaded it, it was working fine. Please help me out sir, I worked hard on the project. I’ll get a zero, but I made the submissions correctly. Some other student also got the “server didn’t start in 5 minutes” but he has an evaluation log file. Please kindly help me out. My roll no. is 22f2001389"
+    },
+    {
+      "post_id": 612336,
+      "author": "carlton",
+      "created_at": "2025-03-28T19:16:38.027000",
+      "content": "We will check and rerun on arm if we ran it on the wrong emulation."
+    },
+    {
+      "post_id": 612338,
+      "author": "22f2001389",
+      "created_at": "2025-03-28T19:19:15.240000",
+      "content": "Any suggestions for my case sir ? I’m really tensed."
+    },
+    {
+      "post_id": 612339,
+      "author": "21f2000709",
+      "created_at": "2025-03-28T19:20:38.723000",
+      "content": "22f3002933:\n\n\n\n\nI have noticed that my image was run on a \nx86_64\n architecture ( I can see my email in the logs shared ) whereas I built this docker image on my mac which is \nARM\n. This is why I can see that my docker image never ran properly and threw the \nexec format error\n.\n\n\nThis was never mentioned on which architecture machine, our images will be evaluated. I request that my evaluation be done again on the right machine.\n\n\n\n\n\n\n@carlton\n  same issue, My image was also run on a \nx86_64\n architecture. I too built on my mac which is \nARM\n (M1 Processor). I too can see that my docker image never ran properly and threw the \nexec format error\n  and  \nEvaluation log file\n is MISSING.\n\n\nActually my image was run on x86_64 architecture as it was present in that log file and because of the wrong architecture it never started.\n\n\nI also request that my evaluation be done again on the right machine.\n\n\nScreenshot 2025-03-29 at 12.51.59 AM\n1613×182 19.1 KB\n\n\nEven just now I tried running the exact image:\n\n\nScreenshot 2025-03-29 at 12.53.35 AM\n1220×169 25.8 KB\n\n\nIt is running fine on my macbook air m1 (ARM)\n\n\n@Jivraj\n \n@Saransh_Saini"
+    },
+    {
+      "post_id": 612341,
+      "author": "23f1002056",
+      "created_at": "2025-03-28T19:26:23.746000",
+      "content": "22f2001389:\n\n\n\n\nuploaded\n\n\n\n\n\n\nFacing the same issue sir, kindly look into it. I had made sure all the files including the docker file were working perfectly fine. Please help me out.\n\nRoll no. 23f1002056"
+    },
+    {
+      "post_id": 612342,
+      "author": "22f1000703",
+      "created_at": "2025-03-28T19:27:25.982000",
+      "content": "My evaluation log file is missing in report provided. It says tasksA was not found. but I have submitted tasksA in my project file. Also it says server didnt start for 5 mins but for me image was working fine. please kindly help me out. I have made submissions correctly. I request for re evaluation of my project. my roll no is 22f1000703"
+    },
+    {
+      "post_id": 612343,
+      "author": "22f3003083",
+      "created_at": "2025-03-28T19:30:09.940000",
+      "content": "Respected,\n\n\nI haven’t received any mail yet regarding the TDS Project 1 marks.\n\nPlease look into it.\n\n\nRegards,\n\nSoham"
+    },
+    {
+      "post_id": 612344,
+      "author": "AYUSH_SINGH",
+      "created_at": "2025-03-28T19:37:05.650000",
+      "content": "My evaluation log file is missing.\n\nThe 2 other log files i’m given doesnt have my email inside it listed.\n\nthe Image id which is given in the MAIL is not present in my docker desktop, my project’s docker image is listed in docker desktop, which doesnot matches the image id given in the MAIL,\n\nWhat was evaluated? How it was evaluated?\n\n\nThis is the id of the docker image that was evaluated: 0ade87d1bf07\n\n\nMy terminal shows 2 images as last, with respective image ids. I am not sure which one is the real, so please check with both the ids.\n\ntds-project-1              latest    c854274f078d   5 weeks ago    1.38GB\n\nayush6871/fastapi-agent    latest    27e8375b0ab1   6 weeks ago    1.66GB\n\n\nI am requesting to look into this case. I think there has been some mistake somewhere.\n\n\n21f3001194"
+    },
+    {
+      "post_id": 612346,
+      "author": "Adithya",
+      "created_at": "2025-03-28T19:42:12.154000",
+      "content": "I have also built the image on Mac and facing the same issue\n\n\nexec format error\n\n\nIt is running fine on my Macbook Pro M1\n\n\n@carlton\n \n@Saransh_Saini\n \n@Jivraj"
+    },
+    {
+      "post_id": 612347,
+      "author": "22f2001389",
+      "created_at": "2025-03-28T19:44:32.573000",
+      "content": "Sir I have noticed a technical glitch for the docker issue, wherein I mistakenly uploaded the wrong docker image link so kindly please kindly re evaluate it."
+    },
+    {
+      "post_id": 612349,
+      "author": "Abhay222",
+      "created_at": "2025-03-28T19:53:44.965000",
+      "content": "Sir I haven’t received any mail regarding this Project1 marks. \n@Jivraj\n \n@carlton"
+    },
+    {
+      "post_id": 612350,
+      "author": "21f3000512",
+      "created_at": "2025-03-28T19:54:41.344000",
+      "content": "@carlton\n Sir , my Docker image is built on Macbook M1 which as you know uses ARM64 architecture . But evaluated with x86_64 which caused the exec format error due to cross platform compatibility issues . I am kindly requesting you to re-evaluate the project once again ."
+    },
+    {
+      "post_id": 612351,
+      "author": "HarshJaiswal",
+      "created_at": "2025-03-28T20:04:57.116000",
+      "content": "This is the id of the docker image that was evaluated: d0f14a872042  , but i had never provided this docker image then how it get evaluated, also none of the docker image created by me has this id.\n\n\nPlease, look over it.\n\n\nRegards,\n\nHarsh Jaiswal\n\n23f1001995"
+    }
+  ]
+}

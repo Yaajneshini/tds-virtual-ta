@@ -1,0 +1,43 @@
+{
+  "topic_id": 163765,
+  "title": "Score keeps resetting to 0",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/score-keeps-resetting-to-0/163765",
+  "posts": [
+    {
+      "post_id": 580835,
+      "author": "24f2006531",
+      "created_at": "2025-01-17T06:30:48.816000",
+      "content": "Despite saving multiple times, my score keeps resetting to zero. Should I refill the answers for all the questions before saving again? Could this issue also be caused by accessing the assignment from multiple devices?"
+    },
+    {
+      "post_id": 580844,
+      "author": "carlton",
+      "created_at": "2025-01-17T06:42:42.190000",
+      "content": "Hi Shalini,\n\n\nWe are aware of the issue and \n@s.anand\n is working on a solution. The temporary fix is to just reenter all the answers before hitting the Save button. Thanks for the reminder, please bear with the inconvenience while its being fixed.\n\n\nThe last submission is always saved. So please make sure that your last submission contains all the answers for all the questions.\n\n\nKind regards"
+    },
+    {
+      "post_id": 581451,
+      "author": "GaURaVinDeX",
+      "created_at": "2025-01-18T05:02:22.594000",
+      "content": "Hello,\n\nI am also facing the same issue. In my last submission the score was 7.25. Right now it is showing 0. The problem is i had few questions remaining to solve and i dont know which ones now. All of them r showing empty in the solution box. Also i didnt write my answers someplace else, so i would have to solve all the questions again? And also if i just for example for testing submit solution of 1 question now then my score would get reduced from 7.25 to the marks of that 1 question i submitted right?"
+    },
+    {
+      "post_id": 581945,
+      "author": "shubham6",
+      "created_at": "2025-01-19T08:57:21.832000",
+      "content": "Saved multiple times on the graded website as well submitted yes on the course tab but the score keeps resetting to 0 with no progress saved"
+    },
+    {
+      "post_id": 581983,
+      "author": "s.anand",
+      "created_at": "2025-01-19T12:23:34.273000",
+      "content": "@24f2006531\n \n@GaURaVinDeX\n \n@shubham6\n\n\nPlease check this fix. It may solve your problem.\n\n\n\n\n\n\n\n\n\n\nGA1 - Development Tools - Discussion Thread [TDS Jan 2025]\n \nTools in Data Science\n\n\n\n\n\n\n@23f2005067\n \n@23f2003751\n I added a “Recent saves” feature. \nThis will show the time and score for the last 3 times you saved. You can load from any of these. \n \n[image]\n \nDo remember to click the “Check” button to calculate your score. That is not automatic. \nPlease check this out and let me know if there are any bugs. Thanks."
+    },
+    {
+      "post_id": 581989,
+      "author": "shubham6",
+      "created_at": "2025-01-19T12:35:22.388000",
+      "content": "Much appreciated sir"
+    }
+  ]
+}

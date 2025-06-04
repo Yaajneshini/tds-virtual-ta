@@ -1,0 +1,127 @@
+{
+  "topic_id": 169029,
+  "title": "Project 2 - TDS Solver - Discussion Thread",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-discussion-thread/169029",
+  "posts": [
+    {
+      "post_id": 602836,
+      "author": "s.anand",
+      "created_at": "2025-03-03T03:42:19.146000",
+      "content": "Please post any questions related to \nProject 2 - TDS Solver\n.\n\n\nDeadline: \nMonday, March 31, 2025 6:29 PM"
+    },
+    {
+      "post_id": 602837,
+      "author": "s.anand",
+      "created_at": "2025-03-03T03:43:13.472000",
+      "content": ""
+    },
+    {
+      "post_id": 602843,
+      "author": "23f1002382",
+      "created_at": "2025-03-03T04:02:50.399000",
+      "content": "If someone Scrapes the GA Questions with Answers , Can you Please Send them , All of us have might have different GAs (a lil bit maybe), so more data more helpful. PLEASE HELP…\n\n\n\n\n\n\n\n\nProject 2 - TDS Solver - Shared Data Pool\n \nTools in Data Science\n\n\n\n\n\n\nProject 2 - TDS Solver - Discussion Thread\n\nCreating this Thread to share answers and questions from your respective assignments\n\nWhy? \n\nIf we can Train the LLM with these Questions already, we can easily do well? \n\nToo many Questions for LLM \n\nTrue we can use embeddings, map that stored in-system dictionary and use relevant questions from in-system data to send as context with answer \n\nWhat We need from YOU 🫵🏽\nGet to scraping your respective Gra…\n  \n\n\n\n\n@all"
+    },
+    {
+      "post_id": 602852,
+      "author": "22f3002867",
+      "created_at": "2025-03-03T04:33:00.062000",
+      "content": "is it possible to have written solutions to all 5 assignments , instead of just live sessions. I have certain pending questions from the first 5 assignements."
+    },
+    {
+      "post_id": 602861,
+      "author": "22f3002291",
+      "created_at": "2025-03-03T05:12:53.749000",
+      "content": "Please quickly arrange a live TDS session to explain this project. There are a lot of doubts and questions in our minds."
+    },
+    {
+      "post_id": 602866,
+      "author": "22f3002291",
+      "created_at": "2025-03-03T05:33:25.883000",
+      "content": "Please also give access to the answers for GAs. So that we can evaluate our api with the correct answers."
+    },
+    {
+      "post_id": 602875,
+      "author": "24f2003130",
+      "created_at": "2025-03-03T06:01:22.068000",
+      "content": "@carlton\n sir, is there any bonus marks for code uniqueness and extra tasks like project 1"
+    },
+    {
+      "post_id": 602879,
+      "author": "23f3001743",
+      "created_at": "2025-03-03T06:20:33.077000",
+      "content": "If we use ngrok to create a tunnel to our API or Llamafile server, for how long should our terminal remain running? Should it be active only at the time of submission, or must it be continuously available until evaluation is completed?"
+    },
+    {
+      "post_id": 602883,
+      "author": "23f2000573",
+      "created_at": "2025-03-03T06:40:11.842000",
+      "content": "Is it like only the questions from the portal will be sent to the api?\n\n\nIf yes, is this project just about finding which question is asked and accordingly match the answer send the answer as response?"
+    },
+    {
+      "post_id": 602888,
+      "author": "24f2006531",
+      "created_at": "2025-03-03T07:08:47.172000",
+      "content": "image\n935×173 6.54 KB\n\nHello Sir,\n\n\nI understand that we can deploy on vercel. Can it be deployed on Heroku as well? I believe both serve the same purpose. Wanted to know your thoughts on the same sir.\n\n\nThanks and Regards\n\nShalini"
+    },
+    {
+      "post_id": 602897,
+      "author": "Jivraj",
+      "created_at": "2025-03-03T07:33:25.182000",
+      "content": "If you use ngrok, ensure that it is running continuously until you get your results"
+    },
+    {
+      "post_id": 602898,
+      "author": "Jivraj",
+      "created_at": "2025-03-03T07:34:57.718000",
+      "content": "Any question from first 5 Ga’s can be there and you would need to analyze which question it is, you can use function calling or prompting as well. Function calling is better approach here."
+    },
+    {
+      "post_id": 602899,
+      "author": "Jivraj",
+      "created_at": "2025-03-03T07:38:24.972000",
+      "content": "Hi \n@24f2006531\n\n\nYou can deploy it anywhere, just test how it works on Heroku, if it works(send request to api endpoint to your application and it should respond with answer)\n\n\nKind regards"
+    },
+    {
+      "post_id": 602932,
+      "author": "22f3001315",
+      "created_at": "2025-03-03T08:38:46.572000",
+      "content": "will the asked question be same which was asked in my GAs (i mean there were variations in problem statements for diff-diff students.)\n\n\n@Jivraj\n  sir"
+    },
+    {
+      "post_id": 602940,
+      "author": "Yogesh1",
+      "created_at": "2025-03-03T08:59:32.067000",
+      "content": "Was the variation because of the datasets? Or even the problem statement?"
+    },
+    {
+      "post_id": 602947,
+      "author": "22f3001315",
+      "created_at": "2025-03-03T09:25:06.689000",
+      "content": "Mostly problem statement like different cities etc"
+    },
+    {
+      "post_id": 602948,
+      "author": "Yogesh1",
+      "created_at": "2025-03-03T09:29:47.534000",
+      "content": "Then it comes down to what the project demands, as in what kind of questions the llm will be tested on (like you said). Hope the team can give us a test set like in the first project."
+    },
+    {
+      "post_id": 602956,
+      "author": "nilaychugh",
+      "created_at": "2025-03-03T09:42:02.201000",
+      "content": "my question is some graded assignments have image files as a answer, so should our api return files as the answer or like can you clarify what type of answers we need to work on?"
+    },
+    {
+      "post_id": 602970,
+      "author": "23f2000237",
+      "created_at": "2025-03-03T10:04:24.668000",
+      "content": "I guess yes, our APIs should return photos if required"
+    },
+    {
+      "post_id": 603028,
+      "author": "Jivraj",
+      "created_at": "2025-03-03T11:42:29.654000",
+      "content": "@all\n\n\nKeep posting your doubts here we will have answers to all of your doubts   In Thursday’s session.\n\n\nKind regards"
+    }
+  ]
+}

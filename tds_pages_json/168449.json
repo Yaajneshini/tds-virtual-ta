@@ -1,0 +1,127 @@
+{
+  "topic_id": 168449,
+  "title": "Mock ROE 1, 2, 3, 4 [TDS Jan 2025]",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/mock-roe-1-2-3-4-tds-jan-2025/168449",
+  "posts": [
+    {
+      "post_id": 599595,
+      "author": "carlton",
+      "created_at": "2025-02-25T13:32:03.835000",
+      "content": "Dear Learner,\n\n\nUpdate 6\n\n\nHere is link to roe checklist file used in Friday(28 feb) session: \nROE Checklist.docx - Google Docs\n\n\nAll the best\n\nTds team\n\n\nUpdate 5\n\n\n28/02/2025 1:05 pm\n\n\nDear Learner,\n\n\nPlease find the link to Mock ROE 4. This is the final Mock before actual ROE.\n\n\n\n\n\n\ndrive.google.com\n\n\n\n\n\n\n\n\nmock_roe_4.pdf\n\n\nGoogle Drive file.\n\n\n\n\n\n\n\n\n\n\n\n\nWe have a \nspecial\n session scheduled for tonight from 8pm to 10pm. We will be sharing some important information during that session which will help you for your ROE. It is available in your google calendar.\n\n\nThe meet link for that session is:\n\n\nROE Preparation - TDS\n\n\nFriday, February 28 · 8:00 – 10:00pm\n\n\nTime zone: Asia/Kolkata\n\n\nVideo call link: \nhttps://meet.google.com/nnq-sxqh-ryw\n\n\nThe session will be recorded and live streamed on YouTube.\n\nIt will be available on the TDS YouTube Playlist later.\n\n\nKind regards,\n\nTDS Team\n\n\nUpdate 4\n\n\n27/02/2025 7:18pm\n\n\nDear Learner,\n\n\nPlease find the link to Mock ROE 3 below. Note the datasets links are present inside the given document (there are more than 1):\n\n\n\n\n\n\ndrive.google.com\n\n\n\n\n\n\n\n\nMOCK ROE 3.pdf\n\n\nGoogle Drive file.\n\n\n\n\n\n\n\n\n\n\n\n\nThe estimated time for this Mock ROE 3 is 45 mins.\n\n\nAll the best,\n\nTDS Team\n\n\nUpdate 3\n\n\n26/02/2025 8:11 pm\n\n\nDear Learner\n\n\nPlease access the Mock ROE 2 at this link:\n\n\n\n\n\n\n\n\nexam.sanand.workers.dev\n\n\n\n\n\n\nTechnical Assessment\n\n\n\n\n\n\n\n\n\n\n\n\nThere is no time limit for this Mock. The expected time to solve this ROE is 45 mins. Set an alarm and try it.\n\nAfter the session at 9pm there will be a session where we will show you the solutions step by step (not like the previous session which was a demo of ROE).\n\nTo check your answers you will need to run the following script in the console.\n\n\ninputs = document.querySelectorAll('input')\ntextboxes = document.querySelectorAll(\"textarea\")\nbuttons = document.querySelectorAll(\"button\")\ninputs.forEach(input => input.removeAttribute('disabled'));\nbuttons.forEach(input => input.removeAttribute('disabled'));\ntextboxes.forEach(input => input.removeAttribute('disabled'));\n\n\n\nDo not submit or save your answers.\n\n\nAll the best!\n\nKind regards\n\nTDS Team\n\n\nUpdate 2\n\n\n26/02/2025 11:00 am\n\n\nWe will be releasing Mock 2 tonight on an exam portal at 8pm (no time limit).\n\nThe link for the Mock 2 will be available in this post as well as in the Seek Portal. An email will also be sent with the link to Mock 2.\n\n\nWe will be conducting a solving session at 9pm. This will be a regular teaching session (not like the first session on Tuesday 25/02/25 which was a real preview of what ROE looks like).\n\n\nKind regards,\n\nTDS Team\n\n\n\n\nUpdate 1\n\n\n25/02/2025 7:46pm\n\n\nWe have now closed the mock submissions.\n\nBoth the dataset and the form submissions will reopen after tonights live session.\n\n\n\n\nAnnouncement\n\n\n25/02/2025\n\n\nThis same information is available in the seek portal as well.\n\n\nThe data for Mock ROE 1 is available at this link:\n\n\nJivraj-18/tds-jan-2025-mock-roe-1\n\n\nThe questions for Mock ROE 1 is available at this link:\n\n\nhttps://forms.gle/UWhvLQvjrJmnvMSn6\n\n\nIMPORTANT: We will accept only a single submission of the Mock Question Form. Solve all the questions first, and then fill the form and make a single submission at the end.\n\n\nThe form submission will be temporarily closed after 8pm.\n\n\nWe have provided this for you to test yourself. The expected time to complete this Mock ROE is 45 mins.\n\n\nWe will allow access to the Mock ROE and the question form after the live solving session tonight.\n\n\nAll the best!"
+    },
+    {
+      "post_id": 599596,
+      "author": "carlton",
+      "created_at": "2025-02-25T13:32:15.454000",
+      "content": ""
+    },
+    {
+      "post_id": 599598,
+      "author": "22f2001640",
+      "created_at": "2025-02-25T13:39:40.411000",
+      "content": "Should we use data mentioned in headline of form or mail data. ?"
+    },
+    {
+      "post_id": 599612,
+      "author": "24ds3000028",
+      "created_at": "2025-02-25T13:58:19.934000",
+      "content": "From where can I get today’s live sessions link"
+    },
+    {
+      "post_id": 599620,
+      "author": "carlton",
+      "created_at": "2025-02-25T14:09:41.427000",
+      "content": "either is fine. Both have the same data but slightly different presentations"
+    },
+    {
+      "post_id": 599621,
+      "author": "carlton",
+      "created_at": "2025-02-25T14:10:15.004000",
+      "content": "From google calendar\n\n\n\n\n\n\nGoogle Workspace\n\n\n\n\n\n\n\n\nShareable Online Calendar and Scheduling - Google Calendar\n\n\nUse Google Calendar to share meetings and schedule appointments, for managing what matters in your business and personal life, with Google Workspace.\n\n\n\n\n\n\n\n\n\n\n\n\nYou should subscribe to tds calendar. Its available in the TDS Portal\n\n\nmeet.google.com/odh-ycbm-ahj"
+    },
+    {
+      "post_id": 599627,
+      "author": "22f2001640",
+      "created_at": "2025-02-25T14:18:08.670000",
+      "content": "form link not working"
+    },
+    {
+      "post_id": 599628,
+      "author": "carlton",
+      "created_at": "2025-02-25T14:18:50.402000",
+      "content": "Yes we close it at 7:45pm\n\n\nWe will reopen after live session tonight.\n\nIts a timed mock."
+    },
+    {
+      "post_id": 599630,
+      "author": "22f2001640",
+      "created_at": "2025-02-25T14:19:32.437000",
+      "content": "atleast close 5 mins early I would have copied the questions"
+    },
+    {
+      "post_id": 599634,
+      "author": "shubhamatkal",
+      "created_at": "2025-02-25T14:31:01.026000",
+      "content": "live session gmeet link is not available?"
+    },
+    {
+      "post_id": 599656,
+      "author": "Sagan",
+      "created_at": "2025-02-25T14:44:59.458000",
+      "content": "After seeing the Mock, I have to say, please give more time for ROE exam, anything less than 1 hour seems extremely difficult."
+    },
+    {
+      "post_id": 599752,
+      "author": "shubhamatkal",
+      "created_at": "2025-02-25T16:41:32.061000",
+      "content": "where can we find link for recording of live session which happened after this mock roe ?\n\nthanks"
+    },
+    {
+      "post_id": 599758,
+      "author": "Sagan",
+      "created_at": "2025-02-25T17:02:29.814000",
+      "content": "When will it reopen?"
+    },
+    {
+      "post_id": 599845,
+      "author": "23f2003413",
+      "created_at": "2025-02-26T03:30:22.514000",
+      "content": "dear \n@carlton\n\nwhen will yesterday’s recorded session on mock ROE 1 be uploaded on YouTube?"
+    },
+    {
+      "post_id": 599854,
+      "author": "carlton",
+      "created_at": "2025-02-26T03:58:19.216000",
+      "content": "@23f2003413\n\n\nWe will have it uploaded sometime this morning.\n\n\nIt has two parts to it. The first part is the TAs solving the Mock in real time (however this is not a solutions session). The purpose of it is to get you to realise some key things:\n\n\n\n\nThe chaos of ROE.\n\n\nThe adrenaline, speed of thought, the need to be very familiar with your tools.\n\n\nThe limited time you have to use GPT effectively. It will help you with minor work flows, but not with complex tasks. (watch the session debrief to hear a clear articulation about this).\n\n\nThe value of efficient and effective collaboration. A hodgepodge of many people will not make an effective solutions team.\n\n\nThe ABSOLUTE importance of creating your own cheat sheet with code snippets that will help you solve ROE quickly\n\n\nWorkflow of ROE: Data Extraction → Data Cleaning → Data Transformation → Data Analyisis → Information to answer questions\n\n\nThe pitfalls of getting fixated on a question (a very common mistake and you can see it happen in the real time solving session as well).\n\n\nHow limited the time is.\n\n\n\n\nThe second part of the session was a debrief for the sheer shock that students felt. The goal of the mock was to acclimatise you to the shock of ROE.\n\nPast terms never had this benefit. We thought to take the shock factor out so that you can be better prepared than any term before. Emotions were raw. But this is normal. What is unusual is to have a preview of it before ROE. So the discussions were very intense even for us.\n\n\nToday’s Mock ROE will be more like a traditional solving session and deal with new aspects. It has the added bonus of being hosted on an exam server (without a time limit).\n\n\nI would still STRONGLY advise setting a horrible sounding alarm to acclimatise to the pressure cooker of ROE. You will make stupid mistakes under pressure. The TAs did yesterday as well. So best to reduce this factor by getting used to the clock.\n\n\nKind regards"
+    },
+    {
+      "post_id": 599855,
+      "author": "carlton",
+      "created_at": "2025-02-26T03:58:46.473000",
+      "content": ""
+    },
+    {
+      "post_id": 599857,
+      "author": "23f2003413",
+      "created_at": "2025-02-26T04:02:53.908000",
+      "content": "Thank you! will check out the session today"
+    },
+    {
+      "post_id": 600114,
+      "author": "shubhamatkal",
+      "created_at": "2025-02-26T09:16:29.955000",
+      "content": "Hello \n@carlton\n sir , for me given constituency was \n\"SRI GOBINDPUR\"\n\nand in the dataset there are multiple names for this constituency i think over the period names were changed of this constituency\n\ni have filtered constituencies from punjab using below code in colab\n\n\ndf_gobindpur = df[df[\"AC\"].str.contains(\"SRI GOBINDPUR|SRIHARGOBINDPUR|SRI HARGOBINDPUR\", case=False, na=False)]\n\n\n\nis this correct approach or i have to consider only SRI GOBINDPUR name only? but then this constituency is not availble after 1957\n\n\nusing above filtering i got below data for SRI GOBINDPUR\n\n\n\n\ndrive.google.com\n\n\n\n\n\n\n\n\ndf_gobindpur.csv\n\n\nGoogle Drive file.\n\n\n\n\n\n\n\n\n\n\n\n\nthen i used margin formula as\n\n\nmargin_percentage = ((winner_votes - runner_up_votes) / total_votes) * 100\n\n\n\nusing this i got answer for 1st question as\n\n\nYEAR                              1992\nAC                   4 SRIHARGOBINDPUR\nWINNER                  1 GURNAM SINGH\nWINNER_PARTY                       CPI\nWINNER_VOTES                    5000.0\nRUNNER_UP               2 MUSTAK MASIH\nRUNNER_UP_PARTY                    INC\nRUNNER_UP_VOTES                 1115.0\nMARGIN_PERCENTAGE            50.599114\n\n\n\nwhich is 50.60 , but answer is 62.64\n\npls guide where i might be wrong, thanks"
+    },
+    {
+      "post_id": 600276,
+      "author": "Jivraj",
+      "created_at": "2025-02-26T11:23:42.616000",
+      "content": "shubhamatkal:\n\n\n\n\ndf_gobindpur = df[df[\"AC\"].str.contains(\"SRI GOBINDPUR|SRIHARGOBINDPUR|SRI HARGOBINDPUR\", case=False, na=False)]\n\n\n\n\n\n\n\nFor this kind of name difference you can use Openrefine software\n\n\n\n\n\n\n\n\n shubhamatkal:\n\n\n\n\nwhich is 50.60 , but answer is 62.64\n\n\n\n\n\n\nThat answer is wrong, we will be releasing a script with correct python snippets.\n\nKind regards."
+    },
+    {
+      "post_id": 600302,
+      "author": "23f2005138",
+      "created_at": "2025-02-26T12:47:56.303000",
+      "content": "@Jivraj\n \n@carlton\n\n“SATHUPALLE” and “NILANGA” were two of the four constituencies which were assigned to me. However, even with phonetic match, I couldn’t find any data for these.  Closest I could find to SATHUPALLE is “Sattenapalle”, however, two are different locations 150km+ apart as per google maps. Are these really in the dataset?"
+    }
+  ]
+}

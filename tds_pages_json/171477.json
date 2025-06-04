@@ -1,0 +1,67 @@
+{
+  "topic_id": 171477,
+  "title": "Project 1 Evaluation second mail is not correct and reports files missing while they are present",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-evaluation-second-mail-is-not-correct-and-reports-files-missing-while-they-are-present/171477",
+  "posts": [
+    {
+      "post_id": 614050,
+      "author": "22f3001832",
+      "created_at": "2025-04-01T03:38:04.390000",
+      "content": "Mail I received Yesterday:\n\n\nScreenshot from 2025-04-01 09-01-07\n1174×451 54.2 KB\n\n\nPrevious Correct Evaluation Mail:\n\n\nScreenshot from 2025-04-01 09-02-35\n1687×650 144 KB\n\n\nGood Morning Sir,\n\n\nThis is my github repo: \nGitHub - kohliaryan/TDS_Project_1\n ()You can verify that it is public, MIT License is present and Dockerfile is also present.)\n\n\nI also got a mail 2 days ago in which everything is mentioned correctly but the mail I got yesterday worry me.  Sir, I have worked really hard for project 1. Please look into this matter.\n\n\n@carlton"
+    },
+    {
+      "post_id": 614959,
+      "author": "22f3001832",
+      "created_at": "2025-04-03T12:03:07.447000",
+      "content": "@Jivraj\n Sir, Please look into in this matter, no reply from your side till now and 2 days have been passed."
+    },
+    {
+      "post_id": 615141,
+      "author": "carlton",
+      "created_at": "2025-04-04T06:10:31.239000",
+      "content": "Apologies for that,\n\n\nThe second email was an automated script that used a stricter criteria. You have passed evaluation and also have a score. So dont worry. We will push scores over this weekend. We are currently doing normalisation.\n\n\nKind regards"
+    },
+    {
+      "post_id": 615308,
+      "author": "23f2000345",
+      "created_at": "2025-04-04T14:22:43.915000",
+      "content": "Hi \n@carlton\n,\n\n\nI’m experiencing the same issue mentioned in this thread regarding Project 1 evaluation emails:\n\n\n\n\nThe first email I received confirmed all requirements were met (public repo, MIT License, Dockerfile, etc.)\n\n\nThe second email incorrectly flagged missing files despite their presence in my repository\n\n\n\n\nHere are screenshots of both emails showing the discrepancy:\n\n\nFirst Evaluation Email\n1511×724 76.2 KB\n\n\nSecond Evaluation Email\n1247×681 37.5 KB\n\n\nMy GitHub repo remains publicly accessible with all required components:\n\n\nGitHub repo\n\n\nCould you please confirm this was an automated error and that my submission will be evaluated based on the actual repository contents? Your clarification would be greatly appreciated.\n\n\nThank you for your time and assistance!"
+    },
+    {
+      "post_id": 615333,
+      "author": "carlton",
+      "created_at": "2025-04-04T16:03:11.417000",
+      "content": "Hi,\n\n\nPrerequisite checks have passed. But your docker image was missing a dependency that you forgot to copy into the image. so it failed to evaluate because it failed to run."
+    },
+    {
+      "post_id": 615350,
+      "author": "22f3001832",
+      "created_at": "2025-04-04T17:00:40.743000",
+      "content": "You talking about me or \n@23f2000345\n ?"
+    },
+    {
+      "post_id": 618452,
+      "author": "Sudhishnarayan",
+      "created_at": "2025-04-12T05:11:08.122000",
+      "content": "Good Morning Sir, Actually even I got the mail regarding Project-1 Evaluation, where I got the message like the prerequisites were not met. But, sir actually I have uploaded my MIT License file, requirements.txt file, my Project.py file and the Dockerfile. Sir, and when I sent a request to my API from my device, it worked sir. I have got 0 in my project 1 sir, but I have met the pre-requisites Can you please check this once sir?\n\n\nMy GitHub repository for Project-1: \nGitHub - sudhishssn134/project_1_tds\n\n\nThanking You\n\n\nJust attaching the mail I recieved.\n\n\nScreenshot 2025-04-12 104211\n1429×750 71 KB"
+    },
+    {
+      "post_id": 618459,
+      "author": "carlton",
+      "created_at": "2025-04-12T05:19:47.384000",
+      "content": "Your Dockerfile was misconfigured. When we try to build the docker image from your github repo, we get this error:\n\n\ntried copying parent folder(COPY failed: forbidden path outside the build context: .. ())\n\n\nYou have to replicate the test environment. If it works when you follow this test setup then you should get in touch with us.\n\n\n\n\n\n\n\n\nTds-official-Project1-discrepencies\n \nTools in Data Science\n\n\n\n\n\n    To replicate the test environment: \nFetch the github repo’s latest commit before 18th feb use below code for that. You need to have github cli installed on your system and need authentication for certain github api enpoint access. Once authenticated and providing the appropriate repo details you can  run this code using uv. \n# /// script\n# dependencies = [\n#   \"requests\",\n# ]\n# ///\n\nimport requests\nimport datetime as dt\nimport zoneinfo\nimport argparse\nimport os\nimport zipfile\n\nparser = argparse.…"
+    },
+    {
+      "post_id": 618461,
+      "author": "Sudhishnarayan",
+      "created_at": "2025-04-12T05:22:31.404000",
+      "content": "Oh OK Sir. I will try it out. Thank You so much sir"
+    },
+    {
+      "post_id": 618500,
+      "author": "Sudhishnarayan",
+      "created_at": "2025-04-12T06:28:33.110000",
+      "content": "Sir, I have extracted the files from the GitHub Repository, built my DockerFile withe the DockerImage I have posted. The build is successful and the dockerimage is also running sir. I have attached the screen shot below\n\n\nScreenshot 2025-04-12 115342\n1466×702 50.4 KB\n\n\nSir, But I couldn’t run the last command you gave,\n\n\nuv run evaluate.py --email <any email> --token_counter 1 --external_port 8000\n\n\n\nAs I dont have evaluate.py\n\n\nBut, the DockerImage is built and is running without error sir.\n\nPlease guide me after this sir\n\nThank You So much sir"
+    }
+  ]
+}

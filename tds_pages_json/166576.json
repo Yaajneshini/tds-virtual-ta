@@ -1,0 +1,127 @@
+{
+  "topic_id": 166576,
+  "title": "GA5 - Data Preparation - Discussion Thread [TDS Jan 2025]",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/ga5-data-preparation-discussion-thread-tds-jan-2025/166576",
+  "posts": [
+    {
+      "post_id": 592179,
+      "author": "s.anand",
+      "created_at": "2025-02-08T14:39:41.571000",
+      "content": "Please post any questions related to \nGraded Assignment 5 - Data Preparation\n.\n\n\nPlease use markdown code formatting (fenced code blocks) when sharing code (rather than screenshots). It’s easier for us to copy-paste and test.\n\n\nDeadline:  \n2025-02-15T18:30:00Z\n\n\n@Jivraj\n \n@Saransh_Saini\n \n@carlton"
+    },
+    {
+      "post_id": 592180,
+      "author": "s.anand",
+      "created_at": "2025-02-08T14:40:01.609000",
+      "content": ""
+    },
+    {
+      "post_id": 593372,
+      "author": "23f1002630",
+      "created_at": "2025-02-10T06:17:22.155000",
+      "content": "image\n1448×623 16.3 KB\n\ni can’t load my questions"
+    },
+    {
+      "post_id": 593409,
+      "author": "s.anand",
+      "created_at": "2025-02-10T07:29:12.849000",
+      "content": "@23f1002630\n - thanks for raising this. It’s fixed and won’t re-occur for anyone.\n\n\nWhat happened?\n I picked random duration from the video of 10-40 seconds, but forgot to ensure that the end time should not exceed the video length. That’s what I fixed."
+    },
+    {
+      "post_id": 593506,
+      "author": "23f1002630",
+      "created_at": "2025-02-10T11:25:56.044000",
+      "content": "image\n1158×466 11.8 KB\n\nIt was solved but again I’m facing the same issue"
+    },
+    {
+      "post_id": 593671,
+      "author": "23f1002630",
+      "created_at": "2025-02-10T18:54:19.804000",
+      "content": "@s.anand\n \n@Jivraj\n  I’m still facing the issue."
+    },
+    {
+      "post_id": 593896,
+      "author": "nilaychugh",
+      "created_at": "2025-02-11T16:21:34.546000",
+      "content": "i guess there’s some issue in 5th question as i have correctly filtered the data in OpenRefine 2-3 times but still getting incorrect in the portal."
+    },
+    {
+      "post_id": 594108,
+      "author": "carlton",
+      "created_at": "2025-02-12T12:52:01.867000",
+      "content": "OpenRefine question has historically been a tricky question to get right. Check out some past TA sessions in previous term for solving it, or previous discourse posts.\n\n\nKind regards"
+    },
+    {
+      "post_id": 594381,
+      "author": "22f3001315",
+      "created_at": "2025-02-13T08:51:51.360000",
+      "content": "DOUBT IN -Q 9 Sir \n@carlton\n\n\nMiranda followed the elusive figure.  In the dim corridor,......................\n\n\n\nI listened it ,every words and spellings are matching still this error:\n\n\nError: Words are too different"
+    },
+    {
+      "post_id": 594585,
+      "author": "Nelson",
+      "created_at": "2025-02-13T13:56:56.738000",
+      "content": "Cleaning Data with OpenRefine\n\n\nKindly check the question and the answer. I found below cities for São Paulo.\n\n\nHowever, it says my answer is incorrect.\n\n\n\n\nHow many units of Bacon were sold in São Paulo on transactions with at least 151 units?\n\n\n\n\ncity\nSao Paolo\nSao Paoulo\nSao Paulo\nSao Pualo\nSau Paulo\nSão Paulo\n\n\n\n\nimage\n318×183 5.46 KB"
+    },
+    {
+      "post_id": 595055,
+      "author": "23f1003186",
+      "created_at": "2025-02-14T16:15:42.519000",
+      "content": "Wrong / Confusing question Prof\n\n\nThe top line mentions “Saturdays” whereas the bottom line mentions “Sundays”\n\n\nPlease clarify “SUNDAY” or “SATURDAY”?\n\n\ngrab-IIT-Madras--Microsoft Edge_at_21.44.39_on__14-02-2025__003253\n1920×1816 271 KB"
+    },
+    {
+      "post_id": 595057,
+      "author": "23f1003186",
+      "created_at": "2025-02-14T16:19:36.462000",
+      "content": "Update: I tried for both (thank god for filters in Excel) and Sunday is what the question is asking for. The Instruction above for “Saturday” is incorrect- maybe the logic generating different questions for different students can be tweaked-\n\n\nThank you"
+    },
+    {
+      "post_id": 595100,
+      "author": "23f1003186",
+      "created_at": "2025-02-14T17:47:55.912000",
+      "content": "I’ve attempted this question several times and I’m fairly certain that the answer to this question is incorrect. I’d be grateful if the answer to this question was re-checked. I can share the answer I’m certain about here, however I do not think it would be prudent to do so given this is a public forum.\n\n\nPlease consider my request and double check-\n\n\n@Jivraj\n, \n@carlton\n\n\nThank you\n\n\ngrab-IIT-Madras--Microsoft Edge_at_23.15.25_on__14-02-2025__003255\n1920×1317 210 KB"
+    },
+    {
+      "post_id": 595527,
+      "author": "23f2003717",
+      "created_at": "2025-02-15T16:24:23.831000",
+      "content": "image\n817×458 29.3 KB\n\nthis is my data before date filter - for question 1 please conform am i doing correct. and tell how to do the date filtering as some are in mm-dd-yyyy or yyyy-mm-dd format.\n\n\nas this data is less i did it manually\n\n\n\n\n\n\n\n\n\n\nSUM OF COST\n\n\n14891.00\n\n\n\n\n\n\n\n\n\n\nSUM OF SALES\n\n\n31004.00\n\n\n\n\n\n\nTOTAL\n\n\n45895.00\n\n\n\n\n\n\nTOTAL MARGIN\n\n\n0.351083996\n\n\n\n\n\n\n\n\nbut this is not correct please guide"
+    },
+    {
+      "post_id": 595540,
+      "author": "s.anand",
+      "created_at": "2025-02-15T16:45:07.123000",
+      "content": "@23f1003186\n – thanks for flagging this. You’re right. I’ve fixed this error."
+    },
+    {
+      "post_id": 595564,
+      "author": "23f1003186",
+      "created_at": "2025-02-15T17:05:24.887000",
+      "content": "Any signal for this question?\n\n\n@s.anand\n \n@carlton"
+    },
+    {
+      "post_id": 595571,
+      "author": "s.anand",
+      "created_at": "2025-02-15T17:13:23.480000",
+      "content": "@23f1003186\n thanks again for flagging this. This is fixed, too."
+    },
+    {
+      "post_id": 595576,
+      "author": "23f2003717",
+      "created_at": "2025-02-15T17:19:27.591000",
+      "content": "tried google sheets - it autoformatted my date data, also i realized later i was applying the formula the wrong way.\n\n\nimage\n987×176 14.4 KB\n\nDate formatted and filtered successfully"
+    },
+    {
+      "post_id": 595702,
+      "author": "23f2004752",
+      "created_at": "2025-02-15T23:22:12.712000",
+      "content": "Can you provide the link for that session."
+    },
+    {
+      "post_id": 595747,
+      "author": "23f2003717",
+      "created_at": "2025-02-16T04:42:44.483000",
+      "content": "image\n441×323 4.22 KB\n\n\nHow many units of Computer were sold in London on transactions with at least 39 units?\n\nplease check my answer is not correct - (6193)\n\n\nplease guide"
+    }
+  ]
+}

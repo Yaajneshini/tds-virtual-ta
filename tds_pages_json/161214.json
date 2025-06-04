@@ -1,0 +1,37 @@
+{
+  "topic_id": 161214,
+  "title": "Contribute to My Open-Source LLM Classroom Assignment Evaluator",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/contribute-to-my-open-source-llm-classroom-assignment-evaluator/161214",
+  "posts": [
+    {
+      "post_id": 576033,
+      "author": "22f3001914",
+      "created_at": "2025-01-06T20:00:14.908000",
+      "content": "Dear all,\n\n\nI’m thrilled to share a project inspired by my experience in the *Tools in Data Science * course: \nLLM Classroom Assignment Evaluator\n.  This is the basic prototype.\n\n\nThis tool leverages Google APIs and LLMs to automate grading and feedback for Google Classroom assignments, making evaluation faster and more insightful for educators.\n\n\nA heartfelt thanks to \n@s.anand\n, our course instructor, and TAs \n@Carlton\n and \n@Jivraj\n, whose guidance on LLM function calling and real-world applications made this project possible.\n\n\nI’d love to invite contributions from this amazing community to:\n\n\n\n\nExpand functionality and evaluation models.\n\n\nFix bugs and optimize workflows.\n\n\nImprove documentation for broader accessibility.\n\n\n\n\nThe \nGitHub repository\n is open for forks, pull requests, and ideas. I look forward to collaborating with you all!\n\n\nUpdate: here is a video explaining the process - \nhttps://youtu.be/xa4zhP-S3NE?feature=shared\n\nBest regards,\n\nAvinash Shrivastava"
+    },
+    {
+      "post_id": 576109,
+      "author": "carlton",
+      "created_at": "2025-01-08T03:02:45.940000",
+      "content": "Hi Avinash,\n\n\nThats great work! I am glad you were able to use what you learnt from the course for something so practical. I hope you continue to develop and refine it, take feedback from the stakeholders who would be interested in this approach. I see a lot of potential in this project.\n\n\nKind regards"
+    },
+    {
+      "post_id": 576146,
+      "author": "22f3001914",
+      "created_at": "2025-01-08T11:58:30.974000",
+      "content": "Thanks \n@carlton\n \n I would definitely refine it."
+    },
+    {
+      "post_id": 576220,
+      "author": "s.anand",
+      "created_at": "2025-01-09T05:05:50.620000",
+      "content": "Testing… please ignore"
+    },
+    {
+      "post_id": 576221,
+      "author": "s.anand",
+      "created_at": "2025-01-09T05:07:09.977000",
+      "content": ""
+    }
+  ]
+}

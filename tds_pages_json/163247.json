@@ -1,0 +1,127 @@
+{
+  "topic_id": 163247,
+  "title": "GA3 - Large Language Models - Discussion Thread [TDS Jan 2025]",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247",
+  "posts": [
+    {
+      "post_id": 579668,
+      "author": "s.anand",
+      "created_at": "2025-01-14T13:00:03.324000",
+      "content": "Please post any questions related to \nGraded Assignment 3 - Large Language Models\n.\n\n\n\n\nImportant Instruction\n\n\nPlease use markdown code formatting (fenced code blocks) when sharing code in Discourse posts. This makes the code much easier to read and differentiate from non-code text. It also makes it easier for people to copy code snippets and run it themselves. See below code for example\n\n\nping exam.sanand.workers.dev\n\nPinging exam.sanand.workers.dev [104.21.31.149] with 32 bytes of data:\nReply from 104.21.31.149: bytes=32 time=9ms TTL=58\nReply from 104.21.31.149: bytes=32 time=8ms TTL=58\nReply from 104.21.31.149: bytes=32 time=8ms TTL=58\nReply from 104.21.31.149: bytes=32 time=9ms TTL=58\n\nPing statistics for 104.21.31.149:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 8ms, Maximum = 9ms, Average = 8ms\n\n\n\nVisit this link for more details: \nExtended Syntax | Markdown Guide\n.\n\n\nA friendly suggestion: kindly go through \nDiscourse Docs\n! \n\n\n\n\nDeadline: \nSunday, February 2, 2025 6:29 PM\n\n\n@carlton\n \n@Jivraj\n \n@Saransh_Saini"
+    },
+    {
+      "post_id": 579673,
+      "author": "s.anand",
+      "created_at": "2025-01-14T13:06:47.583000",
+      "content": ""
+    },
+    {
+      "post_id": 580013,
+      "author": "nilaychugh",
+      "created_at": "2025-01-15T12:20:05.475000",
+      "content": "how to get the dummy API key?"
+    },
+    {
+      "post_id": 580073,
+      "author": "Jivraj",
+      "created_at": "2025-01-15T14:59:06.607000",
+      "content": "Hi Nilay,\n\n\nIn order to make a api call to openai chat completions you are required to send authentication information(openai key) in headers. For first question of GA3 you don’t have to send actual(working) api key, any dummy api key would work(you can put your name, or tds anything works)\n\n\nkind regards"
+    },
+    {
+      "post_id": 581443,
+      "author": "nilaychugh",
+      "created_at": "2025-01-18T04:43:01.431000",
+      "content": "which API should i use in 7th question"
+    },
+    {
+      "post_id": 581855,
+      "author": "22f3001315",
+      "created_at": "2025-01-19T07:36:55.428000",
+      "content": "need help in question 4th. how can i correct this json body? sir  \n@Jivraj\n\n\n{\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"Extract text from this image.\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": {\n        \"image_url\": \"data:image/png;base64,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\"\n      }\n    }\n  ]\n}\n\n\n\n\nerror:The JSON body must have 1 message\n\n\n{\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": {\n        \"text\": \"Extract text from this image.\",\n        \"image_url\": \"data:image/png;base64,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\"\n      }\n    }\n  ]\n}\n\n\n\n\nError: The message must have a 2 content parts"
+    },
+    {
+      "post_id": 582119,
+      "author": "22f3001315",
+      "created_at": "2025-01-19T16:53:34.970000",
+      "content": "@Jivraj\n \n@carlton\n  sir plz see it once."
+    },
+    {
+      "post_id": 582598,
+      "author": "Jivraj",
+      "created_at": "2025-01-21T07:02:52.278000",
+      "content": "Hi \n@22f3001315\n ,\n\n\nYou are almost correct, there are very minor changes that needs to be made.\n\n\nTake help from Chat GPT or use this documentation which have correct json body \nVision - OpenAI API\n.\n\n\nKind regards\n\nJivraj"
+    },
+    {
+      "post_id": 582639,
+      "author": "22f3001315",
+      "created_at": "2025-01-21T08:21:45.804000",
+      "content": "it worked thanks sir"
+    },
+    {
+      "post_id": 582722,
+      "author": "22f3002034",
+      "created_at": "2025-01-21T11:25:57.882000",
+      "content": "Are we supposed to buy open ai api key ?"
+    },
+    {
+      "post_id": 582744,
+      "author": "23f2000237",
+      "created_at": "2025-01-21T12:01:17.870000",
+      "content": "No, if you scroll down to the last question, we can get our Ai Proxy key"
+    },
+    {
+      "post_id": 582749,
+      "author": "carlton",
+      "created_at": "2025-01-21T12:06:09.235000",
+      "content": "@nilaychugh\n \n@22f3002034\n\n\nThe API key is available at \nhttps://aiproxy.sanand.workers.dev/\n\n\nThe instructions on how to use the token is given at \nGitHub - sanand0/aiproxy: Authorizing proxy for LLMs\n\n\nYou cannot use this token directly with Open AI or any other gpt. These are only valid via the API exposed by the above instructions.\n\n\nYou get a limit of $1. Use with care.\n\n\nKind regards"
+    },
+    {
+      "post_id": 582810,
+      "author": "nilaychugh",
+      "created_at": "2025-01-21T14:30:30.322000",
+      "content": "but the embedding model that is said to be used is text embedding 3 small, which is the model of OpenAI"
+    },
+    {
+      "post_id": 583185,
+      "author": "Jivraj",
+      "created_at": "2025-01-22T09:13:43.408000",
+      "content": "Hi Nilay,\n\n\nYes you would need to use \ntext-embedding-3-small\n model of openai for embedding questions.\n\n\nKind regards\n\nJivraj"
+    },
+    {
+      "post_id": 583854,
+      "author": "nilaychugh",
+      "created_at": "2025-01-23T03:52:39.679000",
+      "content": "i have a doubt, while submitting the GA3, both 7th and 8th questions require the API url to be active and connected right, but its not possible as both the URLs use same port, so if we check my 7th question URL is running right now, it’ll show as correct, but then if i  run 8th question URL, the 7th question will automatically show the error, \nis there any solution to this problem?"
+    },
+    {
+      "post_id": 583913,
+      "author": "21f3002277",
+      "created_at": "2025-01-23T06:09:55.493000",
+      "content": "Q5.  How to handle the error ? sir \n@Jivraj\n\n\nError: The first input does not match the first text exactly"
+    },
+    {
+      "post_id": 583919,
+      "author": "21f3002277",
+      "created_at": "2025-01-23T06:17:12.711000",
+      "content": "Q4. How to handle this error? \n@Jivraj\n\n\n{\n  \"id\": \"chatcmpl-AshDCPwSiXNao1QXmCxCmi63GifFx\",\n  \"object\": \"chat.completion\",\n  \"created\": 1737599182,\n  \"model\": \"gpt-4o-mini-2024-07-18\",\n  \"choices\": [\n    {\n      \"index\": 0,\n      \"message\": {\n        \"role\": \"assistant\",\n        \"content\": \"The image contains an email address and a number. The email address appears to be associated with an educational institution, and the number seems to be a numerical sequence.\",\n        \"refusal\": null\n      },\n      \"logprobs\": null,\n      \"finish_reason\": \"stop\"\n    }\n  ],\n  \"usage\": {\n    \"prompt_tokens\": 592,\n    \"completion_tokens\": 33,\n    \"total_tokens\": 625,\n    \"prompt_tokens_details\": {\n      \"cached_tokens\": 0,\n      \"audio_tokens\": 0\n    },\n    \"completion_tokens_details\": {\n      \"reasoning_tokens\": 0,\n      \"audio_tokens\": 0,\n      \"accepted_prediction_tokens\": 0,\n      \"rejected_prediction_tokens\": 0\n    }\n  },\n  \"service_tier\": \"default\",\n  \"system_fingerprint\": \"fp_bd83329f63\",\n  \"monthlyCost\": 0.05490624000000001,\n  \"cost\": 0.001974,\n  \"monthlyRequests\": 14,\n  \"costError\": \"crypto.createHash is not a function\"\n}\n\n\n\nError: Model must be gpt-4o-mini"
+    },
+    {
+      "post_id": 584032,
+      "author": "Jivraj",
+      "created_at": "2025-01-23T10:58:14.611000",
+      "content": "Hi Nilay,\n\n\n\n\n\n\n\n\n nilaychugh:\n\n\n\n\nboth the URLs use same port,\n\n\n\n\n\n\nYou can run two servers on different port numbers."
+    },
+    {
+      "post_id": 584038,
+      "author": "Jivraj",
+      "created_at": "2025-01-23T11:05:13.578000",
+      "content": "Hi Vikash,\n\n\nI looked at your answers in backend. In answer you submitted response from openai, but you need to submit json object which is required for sending a request to LLM.\n\n\nKind regards"
+    },
+    {
+      "post_id": 584042,
+      "author": "Jivraj",
+      "created_at": "2025-01-23T11:07:22.861000",
+      "content": "You made same mistake here, instead of response use json body that’s required for sending request to LLM.\n\n\nKind regards"
+    }
+  ]
+}

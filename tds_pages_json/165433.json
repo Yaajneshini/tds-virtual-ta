@@ -1,0 +1,49 @@
+{
+  "topic_id": 165433,
+  "title": "Questions closed (GA)",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/questions-closed-ga/165433",
+  "posts": [
+    {
+      "post_id": 586611,
+      "author": "22f2000559",
+      "created_at": "2025-01-27T07:08:49.269000",
+      "content": "Respected Sir \n@carlton\n,\n\n\nI realized there are still many topics to learn in order to complete the TDS Course ( With an A or S Grade) as I have missed some questions (Couldn’t do even after studying the videos ) .\n\n\nTherefore wanted to learn and regardless of the scoring I still wish to complete GA1 but, I see that I can’t access the questions  anymore …\n\n\nIs there any way to give the answers in the portal and check. I just want to learn and test my knowledge\n\n\nThank You,\n\n22f2000559."
+    },
+    {
+      "post_id": 586634,
+      "author": "Yogesh1",
+      "created_at": "2025-01-27T07:46:21.658000",
+      "content": "Yeah. There must be a mechanism by which the scores get frozen but students are able to practise even after the deadline."
+    },
+    {
+      "post_id": 587241,
+      "author": "parthpatel",
+      "created_at": "2025-01-28T14:11:36.042000",
+      "content": "@carlton\n \n@s.anand\n Please provide a solution\n\n\nEdit: \n@Yogesh1\n \n@22f2000559\n There is a way to access GA1 - you can login with any other email ID, as the site is meant for general public too. You won’t be able to submit the assignments, so you might have to self-evaluate."
+    },
+    {
+      "post_id": 587348,
+      "author": "s.anand",
+      "created_at": "2025-01-29T00:47:24.122000",
+      "content": "@22f2000559\n – Good point. I’ve enabled access now.\n\n\n@parthpatel\n – nice workaround!"
+    },
+    {
+      "post_id": 590377,
+      "author": "parthpatel",
+      "created_at": "2025-02-03T17:34:54.550000",
+      "content": "@carlton\n \n@s.anand\n\n\nSorry to bother you again, but there is another issue about inactive download buttons for required files for the problems. Also it will be nice if the evaluations are turned on too."
+    },
+    {
+      "post_id": 590441,
+      "author": "s.anand",
+      "created_at": "2025-02-04T04:24:53.476000",
+      "content": "Good point. Fixed now."
+    },
+    {
+      "post_id": 591519,
+      "author": "22f2000559",
+      "created_at": "2025-02-07T07:36:00.899000",
+      "content": "@s.anand\n Sir,\n\nCan you please enable the evaluations for all GAs who have crossed the deadlines?"
+    }
+  ]
+}

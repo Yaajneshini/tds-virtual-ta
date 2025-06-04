@@ -1,0 +1,127 @@
+{
+  "topic_id": 169888,
+  "title": "GA7 - Data Visualisation - Discussion Thread [TDS Jan 2025]",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/ga7-data-visualisation-discussion-thread-tds-jan-2025/169888",
+  "posts": [
+    {
+      "post_id": 606592,
+      "author": "carlton",
+      "created_at": "2025-03-14T15:47:53.036000",
+      "content": "Dear Learner,\n\n\nThis is the discussion thread for \nGraded Assignment 7\n. Please post any queries related to it here.\n\n\nDeadline: \n2025-03-26T18:29:00Z"
+    },
+    {
+      "post_id": 606593,
+      "author": "carlton",
+      "created_at": "2025-03-14T15:48:44.867000",
+      "content": ""
+    },
+    {
+      "post_id": 606594,
+      "author": "Jivraj",
+      "created_at": "2025-03-14T15:49:06.024000",
+      "content": ""
+    },
+    {
+      "post_id": 608239,
+      "author": "AbhinavOhri",
+      "created_at": "2025-03-18T18:40:18.038000",
+      "content": "Is it compulsory to use microsoft powerpoint? Can we use google slides?"
+    },
+    {
+      "post_id": 608279,
+      "author": "carlton",
+      "created_at": "2025-03-19T03:31:40.631000",
+      "content": "We will be using scripts to check the submissions. You will have to use PowerPoint.\n\n\nKind regards"
+    },
+    {
+      "post_id": 608593,
+      "author": "23ds3000002",
+      "created_at": "2025-03-19T18:43:36.574000",
+      "content": "Hi \n@carlton\n,\n\nI was working on GA7 as part of Task 4 in 7.1. In task 4.Sheet1, the columns include Series ID, Item, Year, Month, and Value. While I could extract Series ID and Item, I couldn’t locate Year, Month, or Value in the dataset. Could someone please assist me with this?\n\n\nimage\n1393×657 67.8 KB"
+    },
+    {
+      "post_id": 608605,
+      "author": "21f3000766",
+      "created_at": "2025-03-19T20:59:13.713000",
+      "content": "There is another dataset provided for the other records."
+    },
+    {
+      "post_id": 608613,
+      "author": "Jivraj",
+      "created_at": "2025-03-19T23:10:44.478000",
+      "content": "image\n1227×791 78.2 KB\n\n\nMonthly Price Indices file have those columns."
+    },
+    {
+      "post_id": 608903,
+      "author": "23f2004313",
+      "created_at": "2025-03-20T15:38:46.618000",
+      "content": "@\nJivraj\n\n\nIn the GA 7.1 part it is said that we need data of which columns are\n\n\n\n\nbut the dataset provided has no column named “Item”"
+    },
+    {
+      "post_id": 608917,
+      "author": "23ds3000002",
+      "created_at": "2025-03-20T16:10:44.310000",
+      "content": "Thanks a lot for pointing out and sorry it’s my bad missed it."
+    },
+    {
+      "post_id": 608918,
+      "author": "23ds3000002",
+      "created_at": "2025-03-20T16:13:35.023000",
+      "content": "Item is there in other sheet we might have to join them to get items."
+    },
+    {
+      "post_id": 608941,
+      "author": "23f2004313",
+      "created_at": "2025-03-20T16:52:36.384000",
+      "content": "We have to extract all id’s and their respective item from other sheet and add in first sheet with respect to id’s ."
+    },
+    {
+      "post_id": 609742,
+      "author": "22f2000559",
+      "created_at": "2025-03-22T11:48:58.353000",
+      "content": "@carlton\n Sir I don’t have Microsoft PowerPoint. What should I do ?"
+    },
+    {
+      "post_id": 609754,
+      "author": "carlton",
+      "created_at": "2025-03-22T12:12:46",
+      "content": "Use the free version on Microsoft 365"
+    },
+    {
+      "post_id": 611076,
+      "author": "Nelson",
+      "created_at": "2025-03-24T09:01:20.720000",
+      "content": "Below items don’t have prices.\n\n\n\n\n\n\n\n\n\n\nPCU3254123254127111\n\n\nAnticoagulants, hemostatics, and digitalis preparations\n\n\n\n\n\n\n\n\n\n\nPCU3254123254127114\n\n\nCalcium channel blockers\n\n\n\n\n\n\nPCU325412325412MM\n\n\nMiscellaneous receipts\n\n\n\n\n\n\nPCU325412325412D112OC\n\n\nOther digestive or genito-urinary preparations, over-the-counter\n\n\n\n\n\n\nPCU325412325412D113\n\n\nAntacids\n\n\n\n\n\n\nPCU325412325412SS\n\n\nSecondary products\n\n\n\n\n\n\nPCU3254123254127112\n\n\nACE inhibitors\n\n\n\n\n\n\n\n\nSome items don’t have prices for all 24 months.\n\nAlthough the assignment says 24 months (I assumed 2023 January to 2024 December) data, many items have prices for 2025 Jan as well.\n\n\n\n\nMonthly Price Indices for Segments (Two-year data)\n\n\n\n\nShall I delete the records for which price is not available?\n\n\nimage\n1290×648 53.1 KB\n\n\n@carlton\n \n@Jivraj"
+    },
+    {
+      "post_id": 611116,
+      "author": "22f2000559",
+      "created_at": "2025-03-24T12:03:28.613000",
+      "content": "How to give the access to power point slides with the edit option ?"
+    },
+    {
+      "post_id": 611166,
+      "author": "23f1001611",
+      "created_at": "2025-03-24T15:32:12.298000",
+      "content": "@carlton\n   Can you please advise regarding the ga.7.2 as the The current top 5 countries by GDP in 2014 from the dataset are actually aggregated economic groups (not individual countries). can i proceed with that or I need to filter only the individual countries"
+    },
+    {
+      "post_id": 611706,
+      "author": "21f3000745",
+      "created_at": "2025-03-26T16:51:13.180000",
+      "content": "once i submitted the answers. but when i clicked on edit response and it deleted all the submitted answers. What to do in this case \n@carlton\n \n@Jivraj\n \n@Saransh_Saini"
+    },
+    {
+      "post_id": 611750,
+      "author": "Jivraj",
+      "created_at": "2025-03-27T00:17:26.595000",
+      "content": ""
+    },
+    {
+      "post_id": 611760,
+      "author": "carlton",
+      "created_at": "2025-03-27T02:50:49.238000",
+      "content": "Hi Tanya,\n\n\nBoth you responses have been recorded. So it has not been deleted. Its just the way google forms works, it does not reload your previous responses.\n\n\nKind regards"
+    }
+  ]
+}

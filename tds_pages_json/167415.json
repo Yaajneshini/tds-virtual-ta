@@ -1,0 +1,37 @@
+{
+  "topic_id": 167415,
+  "title": "IMPORTANT: Dockerfile submitted as dockerfile rest everything is working fine",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/important-dockerfile-submitted-as-dockerfile-rest-everything-is-working-fine/167415",
+  "posts": [
+    {
+      "post_id": 596106,
+      "author": "nayonika",
+      "created_at": "2025-02-16T15:34:00.030000",
+      "content": "@carlton\n \n@Jivraj\n \n@Saransh_Saini\n\nI got a mail saying my Dockerfile is missing. However I have a dockerfile already in my github repository. Is it an issue with the spelling of dockerfile since I have submitted it in all small case as ‘dockerfile’. It was showing the score when I checked with the evaluate.py that was provided by iitm.\n\n\nShall I just change the name of the file from ‘dockerfile’ to ‘Dockerfile’ in github repository of mine or is there anything else that is needed to detect the Dockerfile?"
+    },
+    {
+      "post_id": 596126,
+      "author": "Saransh_Saini",
+      "created_at": "2025-02-16T16:22:25.231000",
+      "content": "The name of the Dockerfile should be “Dockerfile” indeed, more over check other sections of your submission like\n\n\n\n\nIs the GitHub repo public?\n\n\nDoes it have an MIT license?\n\n\nDoes it have a DockerFile?\n\n\nIs the Docker image accessible?"
+    },
+    {
+      "post_id": 596127,
+      "author": "nayonika",
+      "created_at": "2025-02-16T16:23:55.760000",
+      "content": "Oh ok made the changes in Github. I hope submitting again is not required since the links and names are same."
+    },
+    {
+      "post_id": 596260,
+      "author": "22f3000585",
+      "created_at": "2025-02-17T07:34:13.842000",
+      "content": "Sir, i got this mail. I have checked that the repo is public and already has a Dockerfile.\n\nI have renamed the ‘LICENSE’ file as ‘MIT LICENSE’."
+    },
+    {
+      "post_id": 596640,
+      "author": "satviksawhney",
+      "created_at": "2025-02-18T08:30:13.921000",
+      "content": "Sir, please consider it we have spent a lot of time, in my case just the d in Dockerfile was small that too on remote repository. On my local repository it was Dockerfile only I even have a published docker image as verified by you autated script only. The name of the file on remote repository did not change even after commit it through my local repo, once I read the mail in morning it was only then I realised it wasn’t changed on GitHub repo.\n\n\nSir I understand the deadline has passed and I am not asking for a resubmission, I am just asking to consider the already submitted work, just that. It would be really helpful. I just have one commit on my repo that too “Rename dockerfile to Dokerfile” . Sir please attest consider what we have already submitted. I have made no changes as you can verify it too.\n\n\nSir it is a humble request to please consider it.\n\n\nWarm Regards,\n\nSatvik Sawhney\n\n23f2003680\n\n\nScreenshot 2025-02-18 at 1.53.10 PM\n1889×467 54 KB"
+    }
+  ]
+}

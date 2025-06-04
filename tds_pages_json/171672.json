@@ -1,0 +1,37 @@
+{
+  "topic_id": 171672,
+  "title": "Why Failed?",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/why-failed/171672",
+  "posts": [
+    {
+      "post_id": 614919,
+      "author": "virajpitale",
+      "created_at": "2025-04-03T10:44:03.443000",
+      "content": "Screenshot 2025-04-03 161302\n1268×533 16.3 KB\n\n\nvirajpitale/tds-project1\n\non github you can clearly see i added mit license still it is showing failed"
+    },
+    {
+      "post_id": 614922,
+      "author": "Jivraj",
+      "created_at": "2025-04-03T10:47:22.621000",
+      "content": "image\n1480×950 140 KB\n\n\nI checked your github repo MIT License file is named as \nLicenese.md\n but standard naming for License is LICENSE or LICENSE.md (with all caps)."
+    },
+    {
+      "post_id": 614931,
+      "author": "virajpitale",
+      "created_at": "2025-04-03T11:00:47.042000",
+      "content": "So, should I edit the filename now, or will you count it as missing?"
+    },
+    {
+      "post_id": 614963,
+      "author": "virajpitale",
+      "created_at": "2025-04-03T12:27:21.792000",
+      "content": "@Jivraj\n please reply"
+    },
+    {
+      "post_id": 616586,
+      "author": "virajpitale",
+      "created_at": "2025-04-07T12:15:01.305000",
+      "content": "Screenshot 2025-04-07 174256\n1710×518 33 KB\n\nI submitted the project \nwithin the deadline\n, and I ensured that \nall requirements were fulfilled\n, including correctly adding the MIT License file. The license file was named properly and contained the correct content.\n\n\nHowever, I received a message stating that the MIT License was not present, and that the prerequisites were not completed — resulting in a failed status. This is surprising and feels unfair, as I’ve double-checked my submission and confirmed that everything, including the license file, is in place and named correctly.\n\n\nHere is my GitHub repo for your reference: \nGitHub - virajpitale/tds-project1\n\n\nI kindly request a re-evaluation of my submission, as I believe I’ve met all the required criteria. I would really appreciate your time in looking into this matter again.\n\n\nThank you for your understanding.\n\n\n@Jivraj"
+    }
+  ]
+}

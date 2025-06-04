@@ -1,0 +1,43 @@
+{
+  "topic_id": 169045,
+  "title": "Project 2 - TDS Solver - Shared Data Pool",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-shared-data-pool/169045",
+  "posts": [
+    {
+      "post_id": 602891,
+      "author": "23f1002382",
+      "created_at": "2025-03-03T07:17:32.847000",
+      "content": "Project 2 - TDS Solver - Discussion Thread\n\n\nCreating this Thread to share answers and questions from your respective assignments\n\n\nWhy? \n\n\nIf we can Train the LLM with these Questions already, we can easily do well?\n\n\nToo many Questions for LLM \n\n\nTrue we can use embeddings, map that stored in-system dictionary and use relevant questions from in-system data to send as context with answer\n\n\nWhat We need from YOU 🫵🏽\n\n\nGet to scraping your respective Graded Assignments and post the it?\n\n\nHow?\n\n\n\n\nIf answers are saved, Just Print (Ctrl+P) and save pdf, not really if this would work\n\n\nIf you had saved code for each question, send the saved code and with a docstring as the question , This would be useful \n\n\n\n\nWhere?\n\n\n\n\n\n\ngithub.com/ANdIeCOOl/TDS-Project2-QuestionBank\n\n\n\n\n\n\nREADME.md\n\n\n\n\nmain\n\n\n\n\n# TDS-Project2-QuestionBank\nQuestion Bank for all TDS assignments\n\n# Requested format\n## Student Assignments Directory Structure\n\nEach student has a folder named with their roll number. Inside each student's folder, there are multiple assignment folders (`Assignment_X`). Each assignment contains:\n- A `.txt` file with the question statement.\n- A corresponding `.py`, `.sh`, or `.js` file for the solution.\n\n### Example Directory Structure\nRollNo_12345/\n├── Assignment_1/\n│   ├── Q1.txt    # Question for Q1\n│   ├── Q1.py     # Solution in Python\n│   ├── Q2.txt    # Question for Q2\n│   ├── Q2.sh     # Solution in Bash\n│   ├── Q3.txt    # Question for Q3\n│   ├── Q3.js     # Solution in JavaScript\n├── Assignment_2/\n\n\n\n\n\n  This file has been truncated. \nshow original\n\n\n\n\n\n\n\n\n\n\n\n\nPlease note, Please send the code it would make the LLM more idk “better”\n\n\nCheers,\n\nAndrew out. \n\n\n@all"
+    },
+    {
+      "post_id": 602892,
+      "author": "23f1002382",
+      "created_at": "2025-03-03T07:20:38.141000",
+      "content": "This time I’ll create a functioning script way before deadline for everyone to use ."
+    },
+    {
+      "post_id": 603007,
+      "author": "Jivraj",
+      "created_at": "2025-03-03T11:21:09.094000",
+      "content": "Hi \n@23f1002382\n\n\nGreat initiative, will be happy to see lot of PR’s on your repo."
+    },
+    {
+      "post_id": 603030,
+      "author": "23f1002382",
+      "created_at": "2025-03-03T11:45:57.715000",
+      "content": "Jivraj:\n\n\n\n\ne, will be happy to see lot of PR’s on your re\n\n\n\n\n\n\nWill \n\nHopefully \n\n…"
+    },
+    {
+      "post_id": 603343,
+      "author": "23f1003186",
+      "created_at": "2025-03-04T08:58:05.322000",
+      "content": "Already did a PR although it was a minor formatting one xDD"
+    },
+    {
+      "post_id": 603352,
+      "author": "23f1002382",
+      "created_at": "2025-03-04T09:29:48.657000",
+      "content": "yeah thanks that helped a lot actually"
+    }
+  ]
+}

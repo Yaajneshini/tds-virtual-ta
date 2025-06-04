@@ -1,0 +1,127 @@
+{
+  "topic_id": 164277,
+  "title": "Project 1 - LLM-based Automation Agent - Discussion Thread [TDS Jan 2025]",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-llm-based-automation-agent-discussion-thread-tds-jan-2025/164277",
+  "posts": [
+    {
+      "post_id": 581882,
+      "author": "s.anand",
+      "created_at": "2025-01-19T08:17:46.856000",
+      "content": "Please post any questions related to \nProject 1 - LLM-based Automation Agent\n.\n\n\nDeadline: \nSunday, February 16, 2025 6:29 PM\n\n\nUpdate on 27 Jan 2025\n:\n\n\nA \nsample\n evaluation script for Project 1 tasks A1-A10 is available at \ntools-in-data-science-public/project-1 at tds-2025-01-project-1-wip · sanand0/tools-in-data-science-public · GitHub\n\n\nYou can use this to validate your code for Project 1.\n\n\nPlease note:\n\n\n\n\nThis is a sample. It \nWILL\n change.\n\n\nDon’t rely on the dataset being the same. It \nWILL\n change.\n\n\nLLMs give different results each time they are called. Make sure:\n\n\n\nYour code gives correct results \nreliably\n (i.e. try a few times)\n\n\nChange the task in the evaluation script slightly to test variations\n\n\n\n\n\n\nYour \nAI Proxy usage\n resets on 1 Feb. You have a limited budget. Utilize what you can this month.\n\n\nFor those who \nsubmit their code\n by Friday 31 Jan, I will run a sample evaluation and share the results."
+    },
+    {
+      "post_id": 581888,
+      "author": "s.anand",
+      "created_at": "2025-01-19T08:20:32.879000",
+      "content": ""
+    },
+    {
+      "post_id": 582037,
+      "author": "roy2003",
+      "created_at": "2025-01-19T13:44:38.945000",
+      "content": "sir show us all the way to do project"
+    },
+    {
+      "post_id": 582038,
+      "author": "Jivraj",
+      "created_at": "2025-01-19T13:45:31.017000",
+      "content": "Hi Shouvik,\n\n\nWe will have live sessions to guide on how to do project.\n\n\nKind regards\n\nJivraj"
+    },
+    {
+      "post_id": 582333,
+      "author": "23f2000237",
+      "created_at": "2025-01-20T10:44:32.687000",
+      "content": "Will those session be on youtube too?"
+    },
+    {
+      "post_id": 582334,
+      "author": "carlton",
+      "created_at": "2025-01-20T10:48:22.899000",
+      "content": "Hi Sakthivel,\n\n\nYes all sessions are being recorded and are available on youtube within a day.\n\n\nJan 25 TDS Playlist\n\n\nKind regards"
+    },
+    {
+      "post_id": 584016,
+      "author": "22f3001315",
+      "created_at": "2025-01-23T09:57:29.120000",
+      "content": "Screenshot 2025-01-23 151614\n1281×125 18.1 KB\n\nsir \n@Jivraj\n after editing line 127 in datagen.py i got those  required data files. is it allowed ? also i had to run datagen.py MANUALLY(is this process also should be automatic)?"
+    },
+    {
+      "post_id": 584052,
+      "author": "Jivraj",
+      "created_at": "2025-01-23T11:30:21.008000",
+      "content": "Hi Guddu ,\n\n\nI didn’t make any changes to file and it worked for me. Can you mention what is need of making changes ?\n\n\ncommand that I used :\n\n\nuv run datagen.py 22f3002542@ds.study.iitm.ac.in --root ./data\n\n\nhere --root option defines the folder where you want to store generated data. by default it would try to create a folder in root directory of operating system.\n\n\nKind regards\n\nJivraj"
+    },
+    {
+      "post_id": 584083,
+      "author": "23f2005325",
+      "created_at": "2025-01-23T13:05:16.643000",
+      "content": "getting this issue :\n\n\nopenai.AuthenticationError: Error code: 401 - {'error': {'message': 'Your authentication token is not from a valid issuer.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_issuer'}}"
+    },
+    {
+      "post_id": 584107,
+      "author": "Jivraj",
+      "created_at": "2025-01-23T13:22:03.304000",
+      "content": "Hi Aishik,\n\n\nPls add context to your query, without that we won’t be able to understand, where exactly you are facing problem.\n\n\n\n\n\n\n\n\n 23f2005325:\n\n\n\n\nopenai.AuthenticationError: Error code: 401 - {'error': {'message': 'Your authentication token is not from a valid issuer.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_issuer'}}\n\n\n\n\n\n\n\nPossible reasons for this issue:\n\n\n\n\nNot using anand sir’s proxy url for sending requests.\n\n\nToken not being correct."
+    },
+    {
+      "post_id": 585092,
+      "author": "23f2005325",
+      "created_at": "2025-01-25T16:20:57.111000",
+      "content": "yes I was not setting the base url to the proxy. I have fixed it thank you ."
+    },
+    {
+      "post_id": 585171,
+      "author": "23f2005325",
+      "created_at": "2025-01-25T18:12:39.754000",
+      "content": "While implementing task A5, I am confused about what recent actually means in the phrase “recent log file”, mentioned under task A5, in the problem statement. This confusion arises because there are no dates corresponding to the log files. Should I consider log-0 as the most recent one? or the log-<largest_number> file? Please clarify."
+    },
+    {
+      "post_id": 585547,
+      "author": "23f2005325",
+      "created_at": "2025-01-26T10:30:43.750000",
+      "content": "I am getting the following response when I am trying to extract credit card number from the credit-card.png :\n\n\n{'id': 'chatcmpl-<redacted>', 'object': 'chat.completion', 'created': 1737872397, 'model': 'gpt-4o-mini-2024-07-18', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': \"I'm sorry, but I can't assist with that.\", 'refusal': None}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 946, 'completion_tokens': 11, 'total_tokens': 957, 'prompt_tokens_details': {'cached_tokens': 0, 'audio_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 0, 'audio_tokens': 0, 'accepted_prediction_tokens': 0, 'rejected_prediction_tokens': 0}}, 'service_tier': 'default', 'system_fingerprint': '<redacted>', 'monthlyCost': 0.07715699999999998, 'cost': 0.0029040000000000003, 'monthlyRequests': 31, 'costError': 'crypto.createHash is not a function'}\n\n\n\nmy code is as below :\n\n\ndef extract_credit_card_number():\n    import requests\n    import base64\n    import os\n    from dotenv import load_dotenv\n    load_dotenv()\n\n\n\n    BASE_URL = \"http://aiproxy.sanand.workers.dev/openai/v1/chat/completions\"\n    headers = {\n        \"Content-Type\": \"application/json\",\n        \"Authorization\": f\"Bearer {os.environ[\"AIPROXY_TOKEN\"]}\"\n    }\n\n    image_path = \"../data/credit_card.png\"\n\n    with open(image_path, \"rb\") as image_file:\n        base64_image = base64.b64encode(image_file.read()).decode(\"utf-8\")\n\n    payload = {\n        \"model\": \"gpt-4o-mini\",\n        \"messages\": [\n            {\n                \"role\": \"system\",  \n                \"content\": \"You are a helpful assistant that provides detailed and accurate descriptions of images. Focus on describing the objects, colors, textures, the overall scene, and most importantly, the text and numbers in the image. Be concise but thorough.\"\n            },\n            {\n                \"role\": \"user\",\n                \"content\": [\n                    {\n                        \"type\": \"text\",\n                        \"text\": \"You are given an image containing a credit card number. Extract the credit card number from the image\"\n                    },\n                    {\n                        \"type\": \"image_url\",\n                        \"image_url\": {\n                            \"url\": f\"data:image/png;base64,{base64_image}\"\n                        }\n                    }\n                ]\n            }\n        ],\n    }\n\n    \n    response = requests.post(BASE_URL, headers=headers, json=payload)\n\n    \n    if response.status_code == 200:\n        result = response.json()\n        print(\"RESULT:\", result)\n        cno = result[\"choices\"][0][\"message\"][\"content\"]\n        print(\"CREDIT CARD NUMBER:\", cno)\n    else:\n        print(f\"Error: {response.status_code}\")\n        print(response.text)\n\n\n\nplease guide \n@Jivraj\n \n@Saransh_Saini"
+    },
+    {
+      "post_id": 586263,
+      "author": "23f1000299",
+      "created_at": "2025-01-26T17:16:01.337000",
+      "content": "do we have to do these tasks in the linux? As in some of the GA1, the linux answers only accepted. Please tell me that, do we can do it in the desktop or we have to use linux?\n\n\n@Jivraj\n \n@carlton"
+    },
+    {
+      "post_id": 586429,
+      "author": "Saransh_Saini",
+      "created_at": "2025-01-26T18:10:34.636000",
+      "content": "The bash commands are usually run in a linux machine, but you can easily run those commands in VSCode without installing any virtual machines. Download the WSL extension in VSCode and you will get a WSL terminal to work with.\n\n\nFor more information watch this video \nhttps://youtu.be/q74CP4fB7cY?si=M_zw8WzpmMCyVQat\n or watch TDS Live Sessions.\n\n\nRegards,\n\nTDS TA"
+    },
+    {
+      "post_id": 586506,
+      "author": "23f1002382",
+      "created_at": "2025-01-27T01:27:41.658000",
+      "content": "what frameworks can we use? hopefully anything?\n\n\nor what frameworks can’t we use?\n\n\n@carlton\n \n@Jivraj"
+    },
+    {
+      "post_id": 586519,
+      "author": "carlton",
+      "created_at": "2025-01-27T03:04:44.636000",
+      "content": "Project 1 deliverables are all that matter. How you accomplish them is not very relevant. The keys to a successful Project 1 are:\n\nDeliverables,\n\nand \nan example\n of the Evaluation has been provided.\n\nIf your project runs in accordance with the Evaluation methodology then it is considered.\n\n\nScreenshot 2025-01-27 at 8.35.23 am\n1764×1764 374 KB\n\n\nPlease read the documentation carefully from top to bottom.\n\n\nSo the main question is how do you test if the script will run according to the evaluation? The whole point is for it to run not just on your system. It should be deployable anywhere on any machine. Your solution should work anywhere we test it. Thats why you package it in a docker container. How you achieve that is up to you. But if we cannot run your docker container according to the specification we have provided then it has failed this crucial test.\n\n\nKind regards"
+    },
+    {
+      "post_id": 586522,
+      "author": "carlton",
+      "created_at": "2025-01-27T03:09:21.493000",
+      "content": "@23f1002382\n\n\nYou can use any library as long as your Project 1 meets the deliverable requirements and does all the (20+) API tasks.\n\n\nKind regards"
+    },
+    {
+      "post_id": 586786,
+      "author": "s.anand",
+      "created_at": "2025-01-27T13:32:36.477000",
+      "content": "A \nsample\n evaluation script for Project 1 tasks A1-A10 is available at \ntools-in-data-science-public/project-1 at tds-2025-01-project-1-wip · sanand0/tools-in-data-science-public · GitHub\n\n\nYou can use this to validate your code for Project 1.\n\n\nPlease note:\n\n\n\n\nThis is a sample. It \nWILL\n change.\n\n\nDon’t rely on the dataset being the same. It \nWILL\n change.\n\n\nLLMs give different results each time they are called. Make sure:\n\n\n\nYour code gives correct results \nreliably\n (i.e. try a few times)\n\n\nChange the task in the evaluation script slightly to test variations\n\n\n\n\n\n\nYour \nAI Proxy usage\n resets on 1 Feb. You have a limited budget. Utilize what you can this month.\n\n\nFor those who \nsubmit their code\n by Friday, I will run a sample evaluation and share the results.\n\n\n\n\n@carlton\n \n@Jivraj\n \n@Saransh_Saini\n - please socialize this during the live sessions."
+    },
+    {
+      "post_id": 586801,
+      "author": "Divya1",
+      "created_at": "2025-01-27T14:00:22.634000",
+      "content": "By clicking the project link ,I am getting the notes…but no project is available in my project 1"
+    }
+  ]
+}

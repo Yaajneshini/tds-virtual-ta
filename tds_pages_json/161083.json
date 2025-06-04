@@ -1,0 +1,127 @@
+{
+  "topic_id": 161083,
+  "title": "GA1 - Development Tools - Discussion Thread [TDS Jan 2025]",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/ga1-development-tools-discussion-thread-tds-jan-2025/161083",
+  "posts": [
+    {
+      "post_id": 575342,
+      "author": "s.anand",
+      "created_at": "2025-01-02T02:30:03.720000",
+      "content": "Please post any questions related to \nGraded Assignment 1 - Development Tools\n.\n\n\n\n\nImportant Instruction\n\n\nPlease use markdown code formatting (fenced code blocks) when sharing code in Discourse posts. This makes the code much easier to read and differentiate from non-code text. It also makes it easier for people to copy code snippets and run it themselves. Visit this link for more details: \nExtended Syntax | Markdown Guide\n.\n\n\nA friendly suggestion: kindly go through \nDiscourse Docs\n! \n\n\n\n\nDeadline: 26 Jan 2025, midnight IST\n\n\n@carlton\n \n@Jivraj\n Please keep an eye on this thread for support."
+    },
+    {
+      "post_id": 575344,
+      "author": "s.anand",
+      "created_at": "2025-01-02T02:46:01.490000",
+      "content": ""
+    },
+    {
+      "post_id": 575782,
+      "author": "21f2000370",
+      "created_at": "2025-01-05T04:01:42.024000",
+      "content": "image\n1296×158 7.29 KB\n\nFor question 16 of GA1, It says \"Rename all files replacing each digit with the next \"\n\nAccepted answer is working only if file names are renamed as\n\n2h3q9x.txt → 3h4q0x.txt\n\neb209nmlca.txt → eb310nmlca.txt\n\nThat means if digit is 9 then next digit should be 0. \n@carlton\n \n@Jivraj\n let me know if this is what is expected. since 9->10 or 209 → 210 is not working"
+    },
+    {
+      "post_id": 575795,
+      "author": "Jivraj",
+      "created_at": "2025-01-05T05:50:28.537000",
+      "content": "Hi anant,\n\n\nQuestion mentions every digit should be replaced by next one.\n\n\nIn that case 209 would get replaced by 310"
+    },
+    {
+      "post_id": 575815,
+      "author": "21f2000370",
+      "created_at": "2025-01-05T07:56:17.410000",
+      "content": "Hello Sir, When I am following that logic to rename files, assessment check is giving error “Incorrect. Try again.”"
+    },
+    {
+      "post_id": 576111,
+      "author": "carlton",
+      "created_at": "2025-01-08T03:45:23.020000",
+      "content": "@21f2000370\n Since you have managed to get all the answers correct, I presume there are no further issues w/ Q16."
+    },
+    {
+      "post_id": 576239,
+      "author": "23f2003790",
+      "created_at": "2025-01-09T07:32:49.658000",
+      "content": "Hi, I am unable to access Graded Assignment 1. Every time I click on the given link, all I can see is this page. Please advise.\n\n\ntdsga1\n1902×919 31.1 KB"
+    },
+    {
+      "post_id": 576242,
+      "author": "Jivraj",
+      "created_at": "2025-01-09T08:21:13.611000",
+      "content": "Possible reasons for this issue.\n\n\n\n\nDisable/remove Ad blocker\n\n\nDisable/remove Tracking blocker (Allow third party cookies)\n\n\nUse Chrome browser\n\n\nDisable Browser extensions"
+    },
+    {
+      "post_id": 577689,
+      "author": "21f2000370",
+      "created_at": "2025-01-11T08:15:14.939000",
+      "content": "As I highlighted earlier, Its not accepting the answer  if I follow correct logic for renaming for example 209->210, but it is accepting if rename as 209->310"
+    },
+    {
+      "post_id": 577736,
+      "author": "Jivraj",
+      "created_at": "2025-01-11T09:03:17.493000",
+      "content": "Hi Anant,\n\n\n\n\n\n\n\n\n 21f2000370:\n\n\n\n\nimage\n1296×158 7.29 KB\n\n\n\n\n\n\nHere in question, it’s mentioned to replace every digit with next digit, that’s why 209 would be 310."
+    },
+    {
+      "post_id": 577946,
+      "author": "23f1002698",
+      "created_at": "2025-01-11T14:56:07.023000",
+      "content": "In attempting the third question, I’m unable to download the npm package as it requires docker. When trying to install docker from the installer, it freezes in the verifying package stage. Can somebody please help solve my problem?\n\n\n@carlton\n \n@Jivraj"
+    },
+    {
+      "post_id": 577949,
+      "author": "23f1002630",
+      "created_at": "2025-01-11T15:48:35.599000",
+      "content": "image\n1627×202 12.6 KB\n\nWhich HTML content we want to take?"
+    },
+    {
+      "post_id": 577987,
+      "author": "carlton",
+      "created_at": "2025-01-11T17:45:23.526000",
+      "content": "Hi Suhani,\n\n\nnpm does not require docker.\n\n\nKind regards"
+    },
+    {
+      "post_id": 577990,
+      "author": "carlton",
+      "created_at": "2025-01-11T17:48:02.553000",
+      "content": "Hi Hisham,\n\n\nIts described in the question. There is a hidden element hiding somewhere after that question. You would have to inspect the DOM to find it."
+    },
+    {
+      "post_id": 577991,
+      "author": "23F300327",
+      "created_at": "2025-01-11T17:02:23.063000",
+      "content": "Screenshot 2025-01-11 at 10.29.41 PM\n1440×900 160 KB\n\n\n@s.anand\n  please guide me through this question, my answer is showing incorrect"
+    },
+    {
+      "post_id": 578158,
+      "author": "21f3001993",
+      "created_at": "2025-01-12T07:45:04.116000",
+      "content": "Hello Sir. I am unable to install uv in my windows system. Whenever I run the code provided at the reference link in Powershell, my anti-virus system sends a message that it was blocked. Even after blocking Real-time security, uv does not display. What am I doing wrong?"
+    },
+    {
+      "post_id": 578520,
+      "author": "Samra",
+      "created_at": "2025-01-12T11:13:59.536000",
+      "content": "Hi, I’m unable to view assignments. below is the screenshot for your reference.\n\n\nScreenshot 2025-01-12 150511\n963×632 14.5 KB\n\n\nPlease suggest me a way to view it. I have allowed third-party cookies as well.\n\n\nThanks"
+    },
+    {
+      "post_id": 578991,
+      "author": "Jivraj",
+      "created_at": "2025-01-12T21:29:25.964000",
+      "content": "Hi manmeet,\n\n\nI don’t know about solution to this.\n\nSome network setting might be causing problem.\n\n\nAlternatively you can make use of GitHub codespaces which provides 120 hours of free run time in a month. With GitHub codespaces you can use Ubuntu os, and visually it gives you feel of vs code. You can also active your GitHub student developer pack and get 180 hours of GitHub codespaces and some more benefits such as cloud resources and domains.\n\n\nI have done all questions of week1 and week2 on codespaces only, codespaces works very well if you have good internet connection."
+    },
+    {
+      "post_id": 578993,
+      "author": "Jivraj",
+      "created_at": "2025-01-12T21:32:38.881000",
+      "content": "Hi samra,\n\n\nTry installing some other browser see if that works."
+    },
+    {
+      "post_id": 578994,
+      "author": "Jivraj",
+      "created_at": "2025-01-12T21:34:19.477000",
+      "content": "Hi mishkat,\n\n\nWithout sharing code, can you pls share your approach how you are trying to solve this question."
+    }
+  ]
+}

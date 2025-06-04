@@ -1,0 +1,61 @@
+{
+  "topic_id": 171485,
+  "title": "Project 1 discrepancy regarding mit license",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-discrepancy-regarding-mit-license/171485",
+  "posts": [
+    {
+      "post_id": 614077,
+      "author": "22f3000585",
+      "created_at": "2025-04-01T05:16:56.562000",
+      "content": "Sir,\n\n\nThe License file is present in the github repository however i received a mail that said that it was absent.\n\n\nimage\n1145×673 33.8 KB\n\n\nimage\n633×336 7.1 KB\n\n\nSir I thought that the ‘LICENSE’ file had to be renamed to ‘MIT LICENSE’.\n\nCan you please look into it. Thankyou!"
+    },
+    {
+      "post_id": 614378,
+      "author": "Jivraj",
+      "created_at": "2025-04-01T20:57:59.477000",
+      "content": "Hi \n@22f3000585\n\n\nStandard MIT License naming criteria is to be named as LICENSE or LICENSE.md(all caps).\n\n\nAdding a license to a repository - GitHub Docs\n\n\nKind regards"
+    },
+    {
+      "post_id": 614411,
+      "author": "22f3000585",
+      "created_at": "2025-04-02T04:12:14.016000",
+      "content": "image\n931×108 3.89 KB\n\nSir, this is why i renamed it to ‘MIT LICENSE’.\n\nSir can you please consider it. Thank you!"
+    },
+    {
+      "post_id": 614549,
+      "author": "24ds2000125",
+      "created_at": "2025-04-02T11:20:10.590000",
+      "content": "Same here. I also added and saved the file as MIT license because of the following message. I request you to please consider evaluating the project.\n\n\nScreenshot 2025-04-02 at 4.49.23 PM\n1776×228 15.5 KB"
+    },
+    {
+      "post_id": 614633,
+      "author": "carlton",
+      "created_at": "2025-04-02T15:04:59.106000",
+      "content": "@24ds2000125\n \n@22f3000585\n\n\nI completely appreciate that you feel these are minor issues.\n\n\nBut the team has decided that we cannot allow students to make changes to their repos. Because someone else might have another minor issue they want to fix. We have to apply the rule uniformly.\n\n\nUnfortunately we cannot allow submissions that fail the prerequisites.\n\nChanging it now will not suddenly make it eligible.\n\n\nThese things do matter when done at scale.  Its an important lesson Anand wants students to understand. These “minor” things matter.\n\n\nIts a bit like assembling a rocket and forgetting the checklist for the pilot. Minor detail, costs Rs 2, but the rocket cannot leave without it.\n\n\nWe had a significant discussion about it internally. For the sake of fairness to everyone who got it right, we cannot allow edits after the Project deadline. It makes the prerequisites meaningless, especially when it was clearly stressed upon in the sessions and the Project page.\n\n\nI know you will feel very disappointed but it is the decision the team has made and I have shared the reasons why.\n\n\nKindest regards"
+    },
+    {
+      "post_id": 614640,
+      "author": "22f3000585",
+      "created_at": "2025-04-02T15:20:45.985000",
+      "content": "Sir,\n\nThankyou for your prompt reply to my query.\n\nI wanted to let you know that i had made change of ‘LICENSE’ to ‘MIT LICENSE’ on the 16th of Feb itself as that was the day that i had received the mail and because I saw that the submission date had been extended by one day(i.e the 16th of Feb itself).\n\nI completely understand what you are trying to convey but that was the sole reason i made that change on the 16th.\n\nI completely respect your decision but if there is even a slight possibility that you consider it (only because I did it on the 16th) I would highly appreciate it.\n\nThankyou!"
+    },
+    {
+      "post_id": 614651,
+      "author": "carlton",
+      "created_at": "2025-04-02T15:55:00.653000",
+      "content": "One thing we are doing is looking at the latest commit before the 18th of Feb. So if it was correct before the 18th of Feb then we will consider it and evaluate it, but it has to be precisely what is expected. If so, then your submission will be evaluated by building the image from the docker manifest in the github present at the version before the 18th."
+    },
+    {
+      "post_id": 614658,
+      "author": "22f3000585",
+      "created_at": "2025-04-02T16:02:57.956000",
+      "content": "Well noted sir. Thanks a lot!"
+    },
+    {
+      "post_id": 616121,
+      "author": "22f3000585",
+      "created_at": "2025-04-06T13:59:53.894000",
+      "content": "Sir, I received the mail today -\n\n\nimage\n652×156 5.43 KB\n\nSir, I had already added the LICENSE and changed it to’MIT LICENSE’ due to this reason before the deadline itself.\n\n\nimage\n836×101 18.2 KB\n\nSir,the rest of my prerequistes are working well.Can you please check as due to this my project has also not been evaluated.The MIT LICENSE file was already present in the github repo as I submitted my project’s github repo in the google form that was provided.\n\n\nimage\n1113×487 20.2 KB\n\nSir can you please check.\n\nThankyou"
+    }
+  ]
+}

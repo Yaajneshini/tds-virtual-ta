@@ -1,0 +1,127 @@
+{
+  "topic_id": 161120,
+  "title": "GA2 - Deployment Tools - Discussion Thread [TDS Jan 2025]",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/ga2-deployment-tools-discussion-thread-tds-jan-2025/161120",
+  "posts": [
+    {
+      "post_id": 575521,
+      "author": "s.anand",
+      "created_at": "2025-01-03T07:12:14.469000",
+      "content": "Please post any questions related to \nGraded Assignment 2 - Deployment Tools\n.\n\n\n\n\nImportant Instruction\n\n\nPlease use markdown code formatting (fenced code blocks) when sharing code in Discourse posts. This makes the code much easier to read and differentiate from non-code text. It also makes it easier for people to copy code snippets and run it themselves. Visit this link for more details: \nExtended Syntax | Markdown Guide\n.\n\n\nA friendly suggestion: kindly go through \nDiscourse Docs\n! \n\n\n\n\nDeadline: \nSunday, February 2, 2025 6:29 PM\n\n\n@carlton\n \n@Jivraj"
+    },
+    {
+      "post_id": 576110,
+      "author": "carlton",
+      "created_at": "2025-01-08T03:10:51.093000",
+      "content": ""
+    },
+    {
+      "post_id": 579138,
+      "author": "22f3001315",
+      "created_at": "2025-01-12T17:08:02.850000",
+      "content": "Screenshot 2025-01-12 223630\n1727×195 27.1 KB\n\ni have included the email address still its giving error"
+    },
+    {
+      "post_id": 578933,
+      "author": "22f3001315",
+      "created_at": "2025-01-12T17:12:33.282000",
+      "content": "Screenshot 2025-01-12 223956\n1674×158 12.8 KB\n\nthat website is working fine . just  write the parameters after /api"
+    },
+    {
+      "post_id": 578996,
+      "author": "Jivraj",
+      "created_at": "2025-01-12T21:38:16.588000",
+      "content": "Hi Guddu,\n\n\nCan you share your GitHub repo. For GitHub pages question."
+    },
+    {
+      "post_id": 578997,
+      "author": "Jivraj",
+      "created_at": "2025-01-12T21:39:45.792000",
+      "content": "Check your browser console most probably CORS is causing problem.\n\n\nTry adding CORS to your code it might work.\n\n\nKind regards\n\nJivraj"
+    },
+    {
+      "post_id": 579058,
+      "author": "22f3001315",
+      "created_at": "2025-01-13T04:10:58.317000",
+      "content": "github.com\n\n\n\n\n\n\n\n\n\n\nGitHub - gkmfrombs/dolfacts\n\n\nContribute to gkmfrombs/dolfacts development by creating an account on GitHub.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI have added email in body two times in different ways."
+    },
+    {
+      "post_id": 579445,
+      "author": "23F300327",
+      "created_at": "2025-01-13T20:23:32.007000",
+      "content": "Screenshot 2025-01-14 at 1.39.39 AM\n1440×900 154 KB\n\n\n@carlton\n can you please tell me what is wrong in this because I am getting “Error: Response undefined does not match expected” to my answer"
+    },
+    {
+      "post_id": 579556,
+      "author": "22f2001640",
+      "created_at": "2025-01-14T08:16:40.821000",
+      "content": "Facing Issue in GA 2 Question 10 LLM ngrok\n\n\nimage\n1920×886 45.7 KB\n\nI tired multiple times but issue is still there.\n\n\n@carlton\n \n@Jivraj\n \n@s.anand\n Kindly help me out."
+    },
+    {
+      "post_id": 579564,
+      "author": "carlton",
+      "created_at": "2025-01-14T08:51:38.605000",
+      "content": "Hi Mishkat,\n\n\nPlease use  triple backticks to encapsulate code, so that we can debug your code more easily.\n\n\neg\n\n\nif __name__ == \"__main__\":\n   print (\"Hello\")\n\n\n\nPlease use this discourse etiquette to share code.\n\n\nThanks and kind regards"
+    },
+    {
+      "post_id": 579571,
+      "author": "22f3001315",
+      "created_at": "2025-01-14T09:20:15.143000",
+      "content": "sir did you check yet what is the problem in this one?"
+    },
+    {
+      "post_id": 579593,
+      "author": "23F300327",
+      "created_at": "2025-01-14T10:12:42.463000",
+      "content": "from fastapi import FastAPI, Query\nfrom fastapi.middleware.cors import CORSMiddleware\nfrom typing import List, Optional\nimport csv\n\napp = FastAPI()\n\n# Enable CORS\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Allow all origins\n    allow_credentials=True,\n    allow_methods=[\"*\"],  # Allow all methods\n    allow_headers=[\"*\"],  # Allow all headers\n)\n\n# Load student data from the specified CSV file\nstudents = []\nwith open('/Users/mish/Downloads/q-fastapi.csv', mode='r') as file:\n    reader = csv.DictReader(file)\n    for row in reader:\n        students.append({\n            \"studentId\": int(row[\"studentId\"]),\n            \"class\": row[\"class\"]\n        })\n\n@app.get(\"/api\")\nasync def get_students(class_: Optional[List[str]] = Query(None)):\n    print(f\"Requested classes: {class_}\")  # Debugging line\n    if class_:\n        filtered_students = [student for student in students if student[\"class\"] in class_]\n        print(f\"Filtered students: {filtered_students}\")  # Debugging line\n        return {\"students\": filtered_students}\n    return {\"students\": students}\n\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(app, host=\"127.0.0.1\", port=8000)"
+    },
+    {
+      "post_id": 579600,
+      "author": "Jivraj",
+      "created_at": "2025-01-14T10:30:40.928000",
+      "content": "Hi Mishkat,\n\n\nThis error is because you are filtering on \nclass_\n instead of \nclass\n\n\nSo if you send a request on \nhttp://127.0.0.1/api?class_=1S\n you will see response for that \n1S\n class only.\n\n\nkind regards"
+    },
+    {
+      "post_id": 579603,
+      "author": "23F300327",
+      "created_at": "2025-01-14T10:38:20.276000",
+      "content": "thank you so much after modifying the code it got accepted"
+    },
+    {
+      "post_id": 579617,
+      "author": "Jivraj",
+      "created_at": "2025-01-14T11:17:13.952000",
+      "content": "Hi Guddu,\n\n\nInside \nindex.html\n file of your repo, don’t put html code just put your email in the file nothing else.\n\n\nThis issue is because when you deploy on github pages it encrypts any email that’s on page.\n\n\nkind regards."
+    },
+    {
+      "post_id": 579621,
+      "author": "Nelson",
+      "created_at": "2025-01-14T11:23:37.066000",
+      "content": "I am facing an issue with Docker Desktop.\n\n\nDocker Desktop Error\n558×377 27 KB\n\n\nI have uninstalled and installed Docker (run as administrator).\n\n\nwsl --version\n\n\nWSL version: 2.3.26.0\nKernel version: 5.15.167.4-1\nWSLg version: 1.0.65\nMSRDC version: 1.2.5620\nDirect3D version: 1.611.1-81528511\nDXCore version: 10.0.26100.1-240331-1435.ge-release\nWindows version: 10.0.19045.5011\n\n\n\nTried many solutions after googling for the issue.\n\nSo far no solution. Anyone else faced this issue and found a solution?"
+    },
+    {
+      "post_id": 579625,
+      "author": "Jivraj",
+      "created_at": "2025-01-14T11:26:08.672000",
+      "content": "Hi Telvin,\n\n\nTry opening \nlocalhost:8080\n in browser if that works, if it opens in browser then issue might be with some network configurations.\n\n\nI solved this question in github codespace, which didn’t require me to make any changes in network.\n\n\nkind regards\n\n\nkind regards"
+    },
+    {
+      "post_id": 579634,
+      "author": "s.anand",
+      "created_at": "2025-01-14T11:43:33.780000",
+      "content": "@Nelson\n I would recommend \nPodman\n or \nDocker CE\n rather than \nDocker Desktop\n.\n\n\nDocker Desktop is \nnot free for organizations over 250 people\n and many organizations have therefore moved away from it."
+    },
+    {
+      "post_id": 579653,
+      "author": "22f2001640",
+      "created_at": "2025-01-14T12:26:01.055000",
+      "content": "@s.anand\n \n@carlton\n \n@Jivraj\n I tired , in browser localhost:8080 is working fine but ngrok is not working. Is there any other tools for tunneling that can be used."
+    },
+    {
+      "post_id": 579662,
+      "author": "s.anand",
+      "created_at": "2025-01-14T12:52:41.809000",
+      "content": "@22f2001640\n in that case\n\n\n\n\na firewall or local security settings might block access to port 8080, or\n\n\na network restriction is blocking access to port 8080\n\n\n\n\nPlease try one of these:\n\n\n\n\nTry the same on a personal laptop on a public / home network\n\n\nGitHub codespaces, as \n@Jivraj\n suggested\n\n\n\n\nYou \ncould\n try an ngrok alternative like \nlocaltunnel\n but I don’t think that’ll work."
+    }
+  ]
+}

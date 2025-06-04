@@ -1,0 +1,127 @@
+{
+  "topic_id": 165959,
+  "title": "GA4 - Data Sourcing - Discussion Thread [TDS Jan 2025]",
+  "url": "https://discourse.onlinedegree.iitm.ac.in/t/ga4-data-sourcing-discussion-thread-tds-jan-2025/165959",
+  "posts": [
+    {
+      "post_id": 588325,
+      "author": "s.anand",
+      "created_at": "2025-01-31T16:13:36.640000",
+      "content": "Please post any questions related to \nGraded Assignment 4 - Data Sourcing\n.\n\n\nPlease use markdown code formatting (fenced code blocks) when sharing code (rather than screenshots). It’s easier for us to copy-paste and test.\n\n\nDeadline: \nSunday, February 9, 2025 6:29 PM\n\n\n@Jivraj\n \n@Saransh_Saini\n \n@carlton"
+    },
+    {
+      "post_id": 588326,
+      "author": "s.anand",
+      "created_at": "2025-01-31T16:14:00.363000",
+      "content": ""
+    },
+    {
+      "post_id": 588589,
+      "author": "22f3001315",
+      "created_at": "2025-02-01T07:54:31.100000",
+      "content": "Screenshot 2025-02-01 132301\n331×314 12.3 KB\n\nwhat is the error here?? sir \n@Jivraj"
+    },
+    {
+      "post_id": 588867,
+      "author": "24ds2000024",
+      "created_at": "2025-02-01T18:26:06.664000",
+      "content": "I have the Same doubt."
+    },
+    {
+      "post_id": 589057,
+      "author": "s.anand",
+      "created_at": "2025-02-02T05:30:16.417000",
+      "content": "@22f3001315\n \n@21f3002277\n \n@24ds2000024\n – please try again after reloading the page. The new error message will be clearer, like this:\n\n\nError: At [0].rating: Values don't match. Expected: \"7.4\". Actual: 7.4\n\n\n\nFYI, we expect all values as strings, not numbers. That’s because the year can sometimes be a range for a TV series (e.g. 2021 - 2024) and the rating can sometimes be missing."
+    },
+    {
+      "post_id": 589067,
+      "author": "23f2000237",
+      "created_at": "2025-02-02T05:41:42.494000",
+      "content": "In Question 2, it is specifically said to filter the movies however, the evaluator is expecting a TV show there. Should we also include TV shows now?\n\n\nedit:  This is an everchanging dataset, so will our answers be saved, as, this json might not be in this order tomorrow?"
+    },
+    {
+      "post_id": 589072,
+      "author": "s.anand",
+      "created_at": "2025-02-02T05:45:48.804000",
+      "content": "@23f2000237\n A good point. Yes, please include \nall\n titles. I’ve reworded the question accordingly. Thanks."
+    },
+    {
+      "post_id": 589120,
+      "author": "21f3002277",
+      "created_at": "2025-02-02T06:31:48.149000",
+      "content": "Q3. How to handle the error ? \n@Jivraj\n\n\nTypeError: Cannot read properties of null (reading ‘0’)\n\n\nhttp://127.0.0.1:8000/api/outline?country=Russia\n\n{\"outline\":\"## Contents\\n# Russia\\n## Etymology\\n## History\\n### Early history\\n### Kievan Rus'\\n### Grand Duchy of Moscow\\n### Tsardom of Russia\\n### Imperial Russia\\n#### Great power and development of society, sciences, and arts\\n#### Great liberal reforms and capitalism\\n#### Constitutional monarchy and World War\\n### Revolution and civil war\\n### Soviet Union\\n#### Command economy and Soviet society\\n#### Stalinism and modernisation\\n#### World War II and United Nations\\n#### Superpower and Cold War\\n#### Khrushchev Thaw reforms and economic development\\n#### Period of developed socialism or Era of Stagnation\\n#### Perestroika, democratisation and Russian sovereignty\\n### Independent Russian Federation\\n#### Transition to a market economy and political crises\\n#### Modern liberal constitution, international cooperation and economic stabilisation\\n#### Movement towards a modernised economy, political centralisation and democratic backsliding\\n#### Invasion of Ukraine\\n## Geography\\n### Climate\\n### Biodiversity\\n## Government and politics\\n### Political divisions\\n### Foreign relations\\n### Military\\n### Human rights\\n### Corruption\\n### Law and crime\\n## Economy\\n### Transport and energy\\n### Agriculture and fishery\\n### Science and technology\\n#### Space exploration\\n### Tourism\\n## Demographics\\n### Language\\n### Religion\\n### Education\\n### Health\\n## Culture\\n### Holidays\\n### Art and architecture\\n### Music\\n### Literature and philosophy\\n### Cuisine\\n### Mass media and cinema\\n### Sports\\n## See also\\n## Notes\\n## References\\n## Sources\\n## Further reading\\n## External links\"}\n\n\n\n\nerror resolved"
+    },
+    {
+      "post_id": 589293,
+      "author": "22f3001315",
+      "created_at": "2025-02-02T10:06:04.746000",
+      "content": "in my output which is correct\n\nthere are two \\n instead of one ."
+    },
+    {
+      "post_id": 589307,
+      "author": "21f3002277",
+      "created_at": "2025-02-02T10:38:33.945000",
+      "content": "it should one(for newline), my code is working now"
+    },
+    {
+      "post_id": 589366,
+      "author": "24ds2000024",
+      "created_at": "2025-02-02T11:54:35.123000",
+      "content": "Dear Sir,\n\nI was at 2/10 yesterday. After pasting JSON file of IMDB & reloading as suggested My marks updated to 3/10. Kindly confirm if I have got whole of IMDB question."
+    },
+    {
+      "post_id": 589408,
+      "author": "21f3002277",
+      "created_at": "2025-02-02T13:00:36.181000",
+      "content": "Q4. How to handle the error ? \n@Jivraj\n\n\nError: At 2025-02-05: Values don’t match"
+    },
+    {
+      "post_id": 590055,
+      "author": "23f2003853",
+      "created_at": "2025-02-03T00:37:01.721000",
+      "content": "There is no submit button is available in below screen. Is it fine to save the link url only. Please clarify (unless we click submit button the log of Graded Assignment 4 remains red)\n\n\nimage\n1920×1080 337 KB"
+    },
+    {
+      "post_id": 590227,
+      "author": "23f2000237",
+      "created_at": "2025-02-03T10:06:13.753000",
+      "content": "I have a doubt regarding the bonus mark. Suppose someone were to get 10/10 in the assignment, would their mark be recored as 11/10 or just 10?\n\n(Assuming they have interacted in this thread)"
+    },
+    {
+      "post_id": 590239,
+      "author": "s.anand",
+      "created_at": "2025-02-03T11:16:46.279000",
+      "content": "Anyone scoring 10/10 on GA4 and replying with a \nrelevant\n message on this thread will get 11/10"
+    },
+    {
+      "post_id": 590243,
+      "author": "23f2003853",
+      "created_at": "2025-02-03T11:38:10.970000",
+      "content": "For me I just made filter of rating between 2 and 7 in site and typed in console as per  video. with that data got in console worked fine.\n\ncopy the coding and save in place use it for data extract when finally submit"
+    },
+    {
+      "post_id": 590374,
+      "author": "22f2000113",
+      "created_at": "2025-02-03T16:46:46.395000",
+      "content": "For question 2 getting Error: At [8].title: Values don’t match. Expected: “9. Un matrimonio di troppo”. Actual: “9. You’re Cordially Invited” But this movie is not found when searched by name\n\n\nimage\n1414×295 19 KB"
+    },
+    {
+      "post_id": 590429,
+      "author": "nilaychugh",
+      "created_at": "2025-02-04T03:28:57.489000",
+      "content": "how to get the BBC weather API key?"
+    },
+    {
+      "post_id": 590455,
+      "author": "JoelJeffrey",
+      "created_at": "2025-02-04T05:47:12.930000",
+      "content": "Just a quick query on the Bonus mark.\n\n\nWould this be added to the final grade? Say for example, Someone get a full score in the first 4 assignments. So the total comes up to 39.5/39.5, and would be converted to 0.15 or 15 marks. Would the bonus mark be additional to that 15 or would the score change to 40.5/39.5 and then get normalised to 15?"
+    },
+    {
+      "post_id": 590467,
+      "author": "s.anand",
+      "created_at": "2025-02-04T06:15:20.501000",
+      "content": "@JoelJeffrey\n It will be added to the GA4 marks, not the final grade. So, it’s roughly worth 0.15% on the total - not a full 1% on the total."
+    }
+  ]
+}
